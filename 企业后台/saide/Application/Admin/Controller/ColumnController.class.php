@@ -1,0 +1,377 @@
+<?php
+// +----------------------------------------------------------------------------
+// |    Thinkphp  [ WE CAN DO THAT THINK SO ]
+// +----------------------------------------------------------------------------
+// |    黄猷洋(Yoko huang)        1206317124      wanlala615@qq.com
+// +----------------------------------------------------------------------------
+// |    栏目
+// +----------------------------------------------------------------------------
+namespace Admin\Controller;
+use Think\Controller;
+class ColumnController extends Controller {
+    /*
+     * 栏目列表
+     */
+    public function yoko_class(){
+        /* 栏目 -> 栏目列表详情 */
+        $column = M('admin_column_class');
+        $count= $column->count();                                                        //查询满足条件的总记录数
+        $p = getPage($count,10); 
+        $show = $p->show();                           // 分页显示输出
+        $row= $column
+                ->order('id')->limit($p->firstRow.','.$p->listRows)
+                ->select();
+        $this->assign('row',$row);
+        $this->assign('count',$count);
+        $this->assign('show',$show);
+        $this->display();
+    }
+    /*
+     * 栏目添加
+     */
+    public function yoko_class_add(){
+        $this->display();
+    }
+    /*
+     * 栏目添加处理
+     */
+    public function yokos_class_add(){
+        $column = M('admin_column_class');
+        $map['class_title'] = I('class_title');
+        $map['class_time'] = time();
+        /* 栏目添加 -> 查询后台数据 */
+        $ser = $column -> where(array('class_title' => $map['class_title'])) -> find();
+        /* 栏目添加 -> 判断,存入数据 */
+        if($ser['class_title'] == $map['class_title']){
+            $eeres = array();
+            $eeres['code'] = -1;
+            $eeres['msg'] = "栏目已存在";
+            print json_encode($eeres);
+            exit;
+        }else if($map != null){
+            $column->add($map);
+            $eeres = array();
+            $eeres['code'] = 1;
+            $eeres['msg'] = "栏目添加成功";
+            print json_encode($eeres);
+            exit;
+        }else{
+            $eeres = array();
+            $eeres['code'] = -1;
+            $eeres['msg'] = "请输入栏目名称";
+            print json_encode($eeres);
+            exit;
+        }
+    }
+       /*
+        * 栏目删除
+        */
+     public function yoko_column_delete(){
+        $users = M('admin_column_class');
+        $map = array();
+        $map['id'] = I('id');
+        $row = $users->where($map)->delete();
+        if($row){
+         die(json_encode(array('code'=>1,'msg'=>"删除成功")));
+        }else{
+            die(json_encode(array('code'=>-1,'msg'=>"删除失败")));
+        }
+    }
+      /*
+       * 栏目批量删除
+       */
+    public function yoko_column_delete_all(){
+        $id = I('id');
+        $where = "id IN (%s)";
+        $ret = M("admin_column_class")->where($where,array($id))->delete();
+        if($ret){
+            die(json_encode(array('code'=>1, 'msg'=>'删除成功')));
+        }else{
+            die(json_encode(array('code'=>-1, 'msg'=>'删除失败')));
+        }
+    }
+    /*
+     * 栏目更新
+     */
+     public function yoko_class_update(){
+        $users = M('admin_column_class');
+        $map = array();
+        $map['id'] = I('id');
+        $row = $users->where($map)->find();
+        $this->assign('row',$row);
+        $this->display();
+    }
+    /*
+     * 栏目更新处理
+     */
+    public function yokos_class_update(){
+        $column = M('admin_column_class');
+        $map['class_title'] = I('class_title');
+        $map['class_update'] = time();
+        /* 栏目更新 -> 查询后台数据 */
+        $ser = $column -> where(array('class_title' => $map['class_title'])) -> find();
+        /* 栏目更新 -> 判断,存入数据 */
+        if(!IS_POST){
+            if($ser['class_title'] == $map['class_title']){
+                $eeres = array();
+                $eeres['code'] = -1;
+                $eeres['msg'] = "栏目已存在";
+                print json_encode($eeres);
+                exit;
+            }
+        }
+        else{
+            $maps = array();
+            $maps['id'] = I('id');
+            $column->where($maps)->save($map);
+            $eeres = array();
+            $eeres['code'] = 1;
+            $eeres['msg'] = "栏目更新成功";
+            print json_encode($eeres);
+            exit;
+        }
+    }
+    /*
+     * 栏目子类添加
+     */
+    public function cate_add(){
+        /* 栏目子类 -> 获取id,查询后台数据 */
+        $cate = M('admin_column_class');
+        $map = array();
+        $map['id'] = I('id');
+        $row = $cate->where($map)->find();
+        $this->assign('row',$row);
+        $this->display();
+    }
+    /*
+     * 栏目子类添加处理
+     */
+    public function cate_adds(){
+        /* 栏目子类 -> 添加子类详情处理 */
+        $column = M('admin_column_class');
+        $map['class_title'] = I('class_title');
+        $map['class_time'] = time();
+        $map['pid'] = I('pid');
+        $ser = $column -> where(array('class_title' => $map['class_title'])) -> find();
+        if($ser['class_title'] == $map['class_title']){
+            $eeres = array();
+            $eeres['code'] = -1;
+            $eeres['msg'] = "栏目已存在";
+            print json_encode($eeres);
+            exit;
+        }else if($map != null){
+            $column->add($map);
+            $eeres = array();
+            $eeres['code'] = 1;
+            $eeres['msg'] = "栏目添加成功";
+            print json_encode($eeres);
+            exit;
+        }else{
+            $eeres = array();
+            $eeres['code'] = -1;
+            $eeres['msg'] = "请输入栏目名称";
+            print json_encode($eeres);
+            exit;
+        }
+    }
+    /*
+     * 内容列表
+     */
+    public function lists(){
+        /* 内容 -> 列表详情 */
+        $users = M('admin_column_body');
+        $count= $users->count();                       //查询满足条件的总记录数
+        $p = getPage($count,10); 
+        $show = $p->show();                           // 分页显示输出
+        /* 内容 -> 联表查询详情 */
+        $join = $users
+                ->order('id ')->limit($p->firstRow.','.$p->listRows)
+                ->field('admin_column_body. *,admin_column_class.class_title')
+                ->join('admin_column_class ON admin_column_body.uid = admin_column_class.id')
+                ->select();
+        $this->assign('join',$join);
+        $this->assign('count',$count);
+        $this->assign('show',$show);
+        $this->display();
+    }
+    /*
+     * 内容添加
+     */
+    public function column_add(){
+        $cate = M("admin_column_class")->select();
+        $cate = make_tree($cate);
+        $cate_str = $this->show_tree($cate, '');
+        $this->assign('cate', $cate_str);
+        $this->display();
+    }
+    /*
+     * 无限极分类 -> 递归调用
+     */
+    public function show_tree($data,$flag=''){
+        static $str = '';                           //静态变量 只有第一次才初始化
+        foreach($data as $k=>$v){
+            if(empty($v['child'])){
+                $str .= "<option value='".$v['id']."'>$flag".$v['class_title']."</option>";
+            }else{
+                $str .= "<option value='".$v['id']."'>$flag".$v['class_title']."</option>";
+                $this->show_tree($v['child'],$flag.'--|&nbsp;&nbsp');
+            }
+        }
+        return $str;
+    }
+    /*
+     *  内容添加处理
+     */
+    public function column_adds(){
+        $column = M('admin_column_body');
+        $data = array(
+            'uid' => I('uid'),
+            'page' => I('page'),
+            'stert' => I("stert"),
+            'image' => I('image'),
+            'title' => I('title'),
+            'body' => htmlspecialchars_decode(I('body')),           //反转义
+            'abstract' => I('abstract'),
+            'time' => time(),
+            'status' => 1
+        );
+        /* 内容添加 -> 查询后台数据 */
+        $row = $column ->where(array('title' => $data['title']))->find();
+        $ro = $column -> where(array('page'=> $data['page']))->find();
+        /* 内容添加 -> 判断,存入数据 */
+        if($row['title'] == $data['title']){
+            $rest = array();
+            $rest['code'] = 1;
+            $rest['msg'] = "标题已存在";
+            print json_encode($rest);
+            exit;
+        }elseif($ro['page'] == $data['page']){
+            $rest = array();
+            $rest['code'] = 1;
+            $rest['msg'] = "排序值已存在";
+            print json_encode($rest);
+            exit;
+        }else{
+            $ret = M("admin_column_body")->add($data);
+            $rest = array();
+            $rest['code'] = 0;
+            $rest['msg'] = "添加成功";
+            print json_encode($rest);
+            exit;
+        }
+    }
+    /*
+     * 内容发布状态
+     */
+    public function status(){
+        /* 内容 -> 内容发布状态详情 */
+        $id = I('id');
+        $flag = I('flag');
+        if($flag == 1){
+            $where = array('id'=>$id, 'status'=>1);
+            $data = array('status'=>-1);
+            $success_msg = "停用成功";
+            $error_msg = "停用失败";
+        }elseif($flag == -1){
+            $where = array('id'=>$id, 'status'=>-1);
+            $data = array('status'=>1);
+            $success_msg = "启用成功";
+            $error_msg = "启用失败";
+        }
+        /* 内容 -> 更新发布状态 */
+        $ret = M("admin_column_body ")->where($where)->save($data);
+        if($ret){
+            die(json_encode(array('code'=>1,'msg'=>$success_msg)));
+        }else{
+            die(json_encode(array('code'=>-1,'msg'=>$error_msg)));
+        }
+    }
+    /*
+     * 图片上传
+     */
+    public function adver_upload(){
+        $image = upload();
+        die(json_encode(array('image'=>$image)));
+    }
+    /*
+     * 内容删除
+     */
+    public function column_delete(){
+        $users = M('admin_column_body');
+        $map = array();
+        $map['id'] = I('id');
+        $row = $users->where($map)->delete();
+        if($row){
+         die(json_encode(array('code'=>1,'msg'=>"删除成功")));
+        }else{
+            die(json_encode(array('code'=>-1,'msg'=>"删除失败")));
+        }
+    }
+    /*
+     * 内容批量删除
+     */
+    public function column_delete_all(){
+        $id = I('id');
+        $where = "id IN (%s)";
+        $ret = M("admin_column_body")->where($where,array($id))->delete();
+        if($ret){
+            die(json_encode(array('code'=>1, 'msg'=>'删除成功')));
+        }else{
+            die(json_encode(array('code'=>-1, 'msg'=>'删除失败')));
+        }
+    }
+    /*
+     * 内容更新
+     */
+    public function column_update(){
+        $users = M('admin_column_body');
+        $map = array();
+        $map['id'] = I('id');
+        $row = $users->where($map)->find();
+        $this->assign('row',$row);
+        $this->display();
+    }
+    /*
+     * 内容更新处理
+     */
+    public function column_updates(){
+        $column = M('admin_column_body');
+        $data = array(
+            'page' => I('page'),
+            'stert' => I("stert"),
+            'image' => I('image'),
+            'title' => I('title'),
+            'body' => htmlspecialchars_decode(I('body')),          //反转义
+            'abstract' => I('abstract'),
+            'updates' => time(),
+        );
+        /* 内容更新 -> 查询后台数据 */
+        $row = $column ->where(array('title' => $data['title']))->find();
+        $ro = $column -> where(array('page'=> $data['page']))->find();
+        /* 内容更新 -> 判断,存入数据 */
+        if(!IS_POST){
+            if($row['title'] == $data['title']){
+                $eeres = array();
+                $eeres['code'] = 1;
+                $eeres['msg'] = "标题已存在";
+                print json_encode($eeres);
+                exit;
+            }else if($ro['page'] == $data['page']){
+                $eeres = array();
+                $eeres['code'] = 1;
+                $eeres['msg'] = "排序值已存在";
+                print json_encode($eeres);
+                exit;
+            }
+        }else{
+            $maps = array();
+            $maps['id'] = I('id');
+            $column->where($maps)->save($data);
+            $eeres = array();
+            $eeres['code'] = 0;
+            $eeres['msg'] = "更新成功";
+            print json_encode($eeres);
+            exit;
+        }
+    }
+}

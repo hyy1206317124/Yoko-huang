@@ -1,0 +1,1597 @@
+[ 2017-10-26T10:40:31+08:00 ] ::1 /saide/index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.055003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.020001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-26T10:40:32+08:00 ] ::1 /saide/index.php/Admin/User/assets/images/fallba1ck.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T10:40:32+08:00 ] ::1 /saide/index.php/Admin/User/yan.html?4806b8a6268a15e49fe02dbb7978807e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-26T10:40:33+08:00 ] ::1 /saide/index.php/Admin/User/assets/images/mov.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:assets
+
+[ 2017-10-26T10:40:33+08:00 ] ::1 /saide/index.php/Admin/User/data1.php?_dc=1508985633863
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:data1.php
+
+[ 2017-10-26T14:18:24+08:00 ] ::1 /saide/index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.026001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.026001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-26T14:18:25+08:00 ] ::1 /saide/index.php/Admin/User/assets/images/fallba1ck.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T14:18:27+08:00 ] ::1 /saide/index.php/Admin/User/yan.html?7c9827de643cac5b906d3651caa24a57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T14:18:29+08:00 ] ::1 /saide/index.php/Admin/User/assets/images/fallba1ck.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T14:18:31+08:00 ] ::1 /saide/index.php/Admin/User/assets/images/mov.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:assets
+
+[ 2017-10-26T14:18:32+08:00 ] ::1 /saide/index.php/Admin/User/data1.php?_dc=1508998712787
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:data1.php
+
+[ 2017-10-26T14:18:36+08:00 ] ::1 /saide/index.php/Admin/User/yan.html?7c9827de643cac5b906d3651caa24a57?0.7190899760444962
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T14:18:42+08:00 ] ::1 /saide/index.php/Admin/User/yan.html?7c9827de643cac5b906d3651caa24a57?0.7190899760444962?0.2016106328709626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-26T14:18:45+08:00 ] ::1 /saide/index.php/Admin/User/yan.html?7c9827de643cac5b906d3651caa24a57?0.7190899760444962?0.2016106328709626?0.48677194210857344
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T14:18:55+08:00 ] ::1 /saide/index.php/Admin/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\saide\ThinkPHP\Common\functions.php 第 1286 行.
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.3390s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.1040s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = 'saide' AND `password` = '111023' LIMIT 1   [ RunTime:0.2140s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' AND `password` = '111023' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-10-26T14:18:56+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.1140s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T14:18:57+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.464026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.464026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T14:19:03+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0620s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.1420s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T14:19:04+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0510s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T14:19:10+08:00 ] ::1 /saide/index.php/Admin/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_column_body` [ RunTime:1.1801s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_body` LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT admin_column_body. *,admin_column_class.class_title FROM `admin_column_body` INNER JOIN admin_column_class ON admin_column_body.uid = admin_column_class.id  ORDER BY id  LIMIT 0,6   [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-26T14:20:01+08:00 ] ::1 /saide/index.php/Admin/Information/information_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id  LIMIT 0,6   [ RunTime:0.0860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:28:38+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-26T16:28:38+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:28:40+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:28:40+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:28:40+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-26T16:28:41+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-26T16:28:41+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-10-26T16:28:41+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:28:41+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:28:42+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-26T16:29:16+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-26T16:29:16+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:30:56+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-26T16:30:56+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='259200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:30:58+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:30:58+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='259200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:30:59+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-26T16:30:59+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='259200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:31:01+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-26T16:31:01+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='259200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:31:02+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:31:02+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='259200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:31:02+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-26T16:31:02+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='259200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:31:58+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:31:58+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='259200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1506787200' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:32:21+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:32:21+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='259200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1506787200' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:32:41+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:32:41+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1506787200' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:32:43+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:32:44+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1506787200' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:32:46+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-26T16:32:46+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1506787200' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 48 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 55 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:37:19+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-26T16:37:19+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508860800' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1506787200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0600s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1506787200' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:37:21+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-26T16:37:21+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508688000' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1506787200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1506787200' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row2 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 47 行.
+NOTIC: [8] Undefined variable: row3 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 49 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 50 行.
+NOTIC: [8] Undefined variable: date D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 56 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:50:03+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-26T16:50:03+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE ( time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE ( time >='1508688000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE ( time >='1506787200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1506787200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508688000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1506787200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1506787200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1506787200' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:50:05+08:00 ] ::1 /saide/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-26T16:50:05+08:00 ] ::1 /saide/index.php/Admin/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE ( time >='1508860800' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE ( time >='1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE ( time >='1506787200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508947200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1508688000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE ( class_time >='1506787200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508860800' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1508688000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1506787200' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1508860800' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1508688000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1506787200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508947200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508860800' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1508688000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE ( information_time >='1506787200' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\Application\Runtime\Cache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
