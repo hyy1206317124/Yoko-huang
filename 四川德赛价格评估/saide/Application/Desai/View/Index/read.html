@@ -1,0 +1,33 @@
+<include file="./Application/Public/header.html" />
+
+<!--主体-->
+		<include file="./Application/Public/zhongbu.html" />
+	<div class="con_sub_right">
+		<div class="con_sub_right_head">
+                     <volist name="body" id="bo"> 
+			<div class="con_sub_right_head_mark"></div>
+			<div class="con_sub_right_head_name">{$bo['class_title']}</div>
+			<!--div class="con_sub_right_head_en">About US</div-->
+			<div class="con_sub_right_head_more">
+			<span style="font-weight:bold;">当前位置：</span>
+                        <a href="{:U('Index/index')}">主页</a> > 
+                        <a href='{:U("Desai/Index/read?id=".$bo["id"])}'>{$bo['class_title']}</a> > 
+                         </volist>
+			</div>
+		</div>
+		<div class="con_sub_right_con">
+			<ul>
+                            <volist name="row" id="co"> 
+			<li class="con_sub_right_con_list">
+					<a href="{:U('Desai/Index/body?id='.$co['id'].'&'.'uid='.$co['uid'])}" target="_blank">{$co['title']}</a>
+					<span>{$co['time'] | time_date}</span>
+				</li>
+                            </volist>
+			</ul>
+                    <div class="pages">{$show}</div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+<!--主体-->
+<include file="./Application/Public/yoko.html" />

@@ -1,0 +1,50 @@
+
+<div class="con_sub">
+    <input style="display:none" type="text" id="uid" name="uid">
+    
+	<div class="con_sub_left" id="channel_scroll">
+		<div class="serlist">
+
+			<div class="serlist_head">
+				<span>{$reads['class_title']}</span>
+			</div>
+			<div class="serlist_li">
+				<ul>
+                                                          <volist name="read" id="co">
+				<li><a href="{:U('Desai/Index/body?id='.$co['id'].'&'.'uid='.$co['uid'])}" target="_blank">{$co['title']}</a></li>
+                                   </volist>
+				</ul>
+			</div>
+                   
+		</div>
+<div class="address">
+			<div class="address_head">
+				<span>联系地址</span>
+			</div>
+			<div class="address_con">
+				　　    			<div>
+	<span style="font-size:16px;"><span style="font-weight: bold;">联系人：{$contact['contact_contacts']}</span></span></div>
+<div>
+	<span style="font-size:14px;"><span style="font-weight: bold;">电话：{$contact['contact_telephone']}</span></span></div>
+<div>
+	<span style="font-size:14px;"><span style="font-weight: bold;">手机：{$contact['contact_phone']}</span></span></div>
+<div>
+    <span style="font-size:14px;"><span style="font-weight: bold;">QQ&nbsp;：
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3172549834&site=qq&menu=yes">
+                    <img style="margin-bottom: -6px;width: 60px;height: 20.17px;" border="0" src="http://wpa.qq.com/pa?p=2:3172549834:51" alt="点击这里给我发消息" title="点击这里给我发消息"/>
+                </a>
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=389165447&site=qq&menu=yes">
+                    <img style="margin-bottom: -6px;width: 60px;height: 20.17px;" border="0" src="http://wpa.qq.com/pa?p=2:389165447:51" alt="点击这里给我发消息" title="点击这里给我发消息"/>
+                </a>
+            </span></span></div>
+<div>
+	<span style="font-size:14px;">网址：{$contact['contact_url']}</span></div>
+<div>
+	<span style="font-size:14px;">邮箱：<span style="font-size:12px;">{$contact['contact_email']}</span></span></div>
+<div>
+    <span style="font-size:14px;">地址：<a style="color: #333;" href="{:U('Index/ditu')}">{$contact['contact_address']}</a></span></div>
+ 
+			</div>
+		</div>
+	</div>
+    

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*首页*/
+.index_head {width:1000px;height:72px;margin:0px auto;background-image:url(../Image/i_headbg.png)}
+.index_nav{width:1000px;height:41px;margin:0px auto;background-image:url(../Image/daohang.jpg)}
+.index_slid{width:1000px;height:269px;margin:0px auto;position:relative}
+
+.index_sub{width:1000px;height:694px;margin:0px auto;background-color:#fff;}
+.index_footer{position:relative;width:1000px;height:160px;margin:0px auto;background-color:#f2f4ff;border-top:2px solid #04a0ed;padding:10px 0px 0px 0px;}
+/*首页*/
+/*内容页*/
+.con_sub{width:1000px;miin-height:740px;margin:0px auto;background-color:#008ac1;}
+.con_sub_left{width:217px;height:100%;float:left; background-color:#008ac1;}
+.con_sub_right{width:782px;height:100%;float:right;background-color:#fff;}
+/*内容页*/

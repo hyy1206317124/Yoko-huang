@@ -1,0 +1,1254 @@
+[ 2017-11-23T11:10:48+08:00 ] ::1 /saide/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:10:49+08:00 ] ::1 /saide/admin.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:10:50+08:00 ] ::1 /saide/admin.php/User/yan.html?d186462a1ad8b4730870f02ba46ae180
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:10:55+08:00 ] ::1 /saide/admin.php/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\saide\ThinkPHP\Common\functions.php 第 1325 行.
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = 'saide' AND `password` = '111023' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' AND `password` = '111023' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-23T11:10:55+08:00 ] ::1 /saide/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-11-23T11:10:55+08:00 ] ::1 /saide/admin.php/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1511366400' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >='1511280000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >='1511107200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >='1509465600' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1511366400' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1511280000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1511107200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1509465600' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1511366400' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1511280000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1511107200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1509465600' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1511366400' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1511280000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1511107200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1509465600' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1511366400' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1511280000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1511107200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1509465600' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\RuntimeCache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\RuntimeCache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:11:00+08:00 ] ::1 /saide/admin.php/Column/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_column_body` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_body` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT admin_column_body. *,admin_column_class.class_title FROM `admin_column_body` INNER JOIN admin_column_class ON admin_column_body.uid = admin_column_class.id  ORDER BY id desc LIMIT 0,18   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:11:04+08:00 ] ::1 /saide/admin.php/Column/lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_column_body` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_body` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT admin_column_body. *,admin_column_class.class_title FROM `admin_column_body` INNER JOIN admin_column_class ON admin_column_body.uid = admin_column_class.id  ORDER BY id desc LIMIT 18,18   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-23T11:11:07+08:00 ] ::1 /saide/admin.php/Column/lists/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_column_body` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_body` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT admin_column_body. *,admin_column_class.class_title FROM `admin_column_body` INNER JOIN admin_column_class ON admin_column_body.uid = admin_column_class.id  ORDER BY id desc LIMIT 36,18   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\saide\RuntimeCache\Admin\3da29944dc122b1906d47f051e5a0e6c.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-23T11:11:23+08:00 ] ::1 /saide/admin.php/Column/yoko_class.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_column_class` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-23T11:11:26+08:00 ] ::1 /saide/admin.php/Column/yoko_class/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_column_class` ORDER BY id LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:11:28+08:00 ] ::1 /saide/admin.php/Column/yoko_class/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_column_class` ORDER BY id LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-11-23T11:11:33+08:00 ] ::1 /saide/admin.php/Information/information_cate_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_information_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information_cate` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_information_cate` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:12:51+08:00 ] ::1 /saide/admin.php/Information/read_lists/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  WHERE `uid` = '2' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:16:36+08:00 ] ::1 /saide/admin.php/Information/information_update/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_information` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image D:\xampp\htdocs\saide\RuntimeCache\Admin\8f5b1c559236fc8b5c91130aeaf9ae2c.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-23T11:16:40+08:00 ] ::1 /saide/admin.php/Information/information_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:16:46+08:00 ] ::1 /saide/admin.php/Information/information_lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 10,10   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:16:48+08:00 ] ::1 /saide/admin.php/Information/information_update/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin_information` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image D:\xampp\htdocs\saide\RuntimeCache\Admin\8f5b1c559236fc8b5c91130aeaf9ae2c.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:16:51+08:00 ] ::1 /saide/admin.php/Information/information_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:16:54+08:00 ] ::1 /saide/admin.php/Information/information_update/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_information` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image D:\xampp\htdocs\saide\RuntimeCache\Admin\8f5b1c559236fc8b5c91130aeaf9ae2c.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-23T11:16:56+08:00 ] ::1 /saide/admin.php/Information/information_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:16:57+08:00 ] ::1 /saide/admin.php/Information/information_update/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_information` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image D:\xampp\htdocs\saide\RuntimeCache\Admin\8f5b1c559236fc8b5c91130aeaf9ae2c.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-23T11:17:00+08:00 ] ::1 /saide/admin.php/Information/information_lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:17:02+08:00 ] ::1 /saide/admin.php/Information/information_lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 10,10   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:17:04+08:00 ] ::1 /saide/admin.php/Information/information_update/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_information` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: image D:\xampp\htdocs\saide\RuntimeCache\Admin\8f5b1c559236fc8b5c91130aeaf9ae2c.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-11-23T11:20:23+08:00 ] ::1 /saide/admin.php/Information/information_doUpdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_information` WHERE `information_title` = '商标法' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_information` WHERE `information_page` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `admin_information` SET `information_page`='1',`information_image`='',`information_title`='商标法',`information_body`='<p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: &quot;microsoft yahei&quot;, Verdana, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(201, 220, 230);\">中华人民共和国商标法(2013年修正)</p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: &quot;microsoft yahei&quot;, Verdana, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(201, 220, 230);\"><a href=\"http://www.law-lib.com/law/lawml.asp?bbdw=?????????????????????\" style=\"padding: 0px; margin: 0px; text-decoration-line: none; color: rgb(103, 115, 138);\">全国人民代表大会常务委员会</a>　</p><p>（1982年8月23日第五届全国人民代表大会常务委员会第24议通过；根据1993年2月22日第七届全国人民代表大会常务委员会第30次会议《关于修改〈中华人民共和国商标法〉的决定》第1次修正；根据2001年10月27日第九届全国人民代表大会常务委员会第24次会议《关于修改〈中华人民共和国商标法〉的决定》第2次修正；根据2013年8月30日第十二届全国人民代表大会常务委员会第4次会议《关于修改〈中华人民共和国商标法〉的决定》第3次修正）</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub84127_2_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"目 录\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-1\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">目 录</h3><p>第一章 总则</p><p>第二章 商标注册的申请</p><p>第三章 商标注册的审查和核准</p><p>第四章 注册商标的续展、变更、转让和使用许可</p><p>第五章 注册商标的无效宣告</p><p>第六章 商标使用的管理</p><p>第七章 注册商标专用权的保护</p><p>第八章 附则&nbsp;</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub84127_2_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第一章 总 则\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-2\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第一章 总 则</h3><p>第一条 为了加强商标管理，保护商标专用权，促使生产、经营者保证商品和服务质量，维护商标信誉，以保障消费者和生产、经营者的利益，促进社会主义市场经济的发展，特制定本法。</p><p>第二条 国务院工商行政管理部门商标局主管全国商标注册和管理的工作。</p><p>国务院工商行政管理部门设立商标评审委员会，负责处理商标争议事宜。</p><p>第三条 经商标局核准注册的商标为注册商标，包括商品商标、服务商标和集体商标、证明商标；商标注册人享有商标专用权，受法律保护。</p><p>本法所称集体商标，是指以团体、协会或者其他组织名义注册，供该组织成员在商事活动中使用，以表明使用者在该组织中的成员资格的标志。</p><p>本法所称证明商标，是指由对某种商品或者服务具有监督能力的组织所控制，而由该组织以外的单位或者个人使用于其商品或者服务，用以证明该商品或者服务的原产地、原料、制造方法、质量或者其他特定品质的标志。</p><p>集体商标、证明商标注册和管理的特殊事项，由国务院工商行政管理部门规定。</p><p>第四条 自然人、法人或者其他组织在生产经营活动中，对其商品或者服务需要取得商标专用权的，应当向商标局申请商标注册。</p><p>本法有关商品商标的规定，适用于服务商标。</p><p>第五条 两个以上的自然人、法人或者其他组织可以共同向商标局申请注册同一商标，共同享有和行使该商标专用权。</p><p>第六条 法律、行政法规规定必须使用注册商标的商品，必须申请商标注册，未经核准注册的，不得在市场销售。</p><p>第七条 申请注册和使用商标，应当遵循诚实信用原则。</p><p>商标使用人应当对其使用商标的商品质量负责。各级工商行政管理部门应当通过商标管理，制止欺骗消费者的行为。</p><p>第八条 任何能够将自然人、法人或者其他组织的商品与他人的商品区别开的标志，包括文字、图形、字母、数字、三维标志、颜色组合和声音等，以及上述要素的组合，均可以作为商标申请注册。</p><p>第九条 申请注册的商标，应当有显著特征，便于识别，并不得与他人在先取得的合法权利相冲突。</p><p>商标注册人有权标明“注册商标”或者注册标记。</p><p>第十条 下列标志不得作为商标使用：</p><p>（一）同中华人民共和国的国家名称、国旗、国徽、国歌、军旗、军徽、军歌、勋章等相同或者近似的，以及同中央国家机关的名称、标志、所在地特定地点的名称或者标志性建筑物的名称、图形相同的；</p><p>（二）同外国的国家名称、国旗、国徽、军旗等相同或者近似的，但经该国政府同意的除外；</p><p>（三）同政府间国际组织的名称、旗帜、徽记等相同或者近似的，但经该组织同意或者不易误导公众的除外；</p><p>（四）与表明实施控制、予以保证的官方标志、检验印记相同或者近似的，但经授权的除外；</p><p>（五）同“红十字”、“红新月”的名称、标志相同或者近似的；</p><p>（六）带有民族歧视性的；</p><p>（七）带有欺骗性，容易使公众对商品的质量等特点或者产地产生误认的；</p><p>（八）有害于社会主义道德风尚或者有其他不良影响的。</p><p>县级以上行政区划的地名或者公众知晓的外国地名，不得作为商标。但是，地名具有其他含义或者作为集体商标、证明商标组成部分的除外；已经注册的使用地名的商标继续有效。</p><p>第十一条 下列标志不得作为商标注册：</p><p>（一）仅有本商品的通用名称、图形、型号的；</p><p>（二）仅直接表示商品的质量、主要原料、功能、用途、重量、数量及其他特点的；</p><p>（三）其他缺乏显著特征的。</p><p>前款所列标志经过使用取得显著特征，并便于识别的，可以作为商标注册。</p><p>第十二条 以三维标志申请注册商标的，仅由商品自身的性质产生的形状、为获得技术效果而需有的商品形状或者使商品具有实质性价值的形状，不得注册。</p><p><a class=\"image-link\" nslog-type=\"9317\" href=\"https://baike.baidu.com/pic/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%95%86%E6%A0%87%E6%B3%95/1519798/0/8694a4c27d1ed21b2125b820ac6eddc450da3f02?fr=lemma&ct=single\" target=\"_blank\" title=\"\" style=\"color: rgb(19, 110, 194); text-decoration-line: none; display: block; width: 160px; height: 220px;\"><img class=\"\" src=\"/ueditor/php/upload/image/20171123/1511407067706108.jpg\" alt=\"\" style=\"border: 0px; display: block; margin: 0px auto; width: 160px; height: 220px;\"/></a></p><p>第十三条 为相关公众所熟知的商标，持有人认为其权利受到侵害时，可以依照本法规定请求驰名商标保护。</p><p>就相同或者类似商品申请注册的商标是复制、摹仿或者翻译他人未在中国注册的驰名商标，容易导致混淆的，不予注册并禁止使用。</p><p>就不相同或者不相类似商品申请注册的商标是复制、摹仿或者翻译他人已经在中国注册的驰名商标，误导公众，致使该驰名商标注册人的利益可能受到损害的，不予注册并禁止使用。</p><p>第十四条 驰名商标应当根据当事人的请求，作为处理涉及商标案件需要认定的事实进行认定。认定驰名商标应当考虑下列因素：</p><p>（一）相关公众对该商标的知晓程度；</p><p>（二）该商标使用的持续时间；</p><p>（三）该商标的任何宣传工作的持续时间、程度和地理范围；</p><p>（四）该商标作为驰名商标受保护的记录；</p><p>（五）该商标驰名的其他因素。</p><p>在商标注册审查、工商行政管理部门查处商标违法案件过程中，当事人依照本法第十三条规定主张权利的，商标局根据审查、处理案件的需要，可以对商标驰名情况作出认定。</p><p>在商标争议处理过程中，当事人依照本法第十三条规定主张权利的，商标评审委员会根据处理案件的需要，可以对商标驰名情况作出认定。</p><p>在商标民事、行政案件审理过程中，当事人依照本法第十三条规定主张权利的，最高人民法院指定的人民法院根据审理案件的需要，可以对商标驰名情况作出认定。</p><p><a target=\"_blank\" href=\"https://baike.baidu.com/item/%E7%94%9F%E4%BA%A7\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">生产</a>、经营者不得将“驰名商标”字样用于商品、商品包装或者容器上，或者用于广告宣传、展览以及其他商业活动中。</p><p>第十五条 未经授权，代理人或者代表人以自己的名义将被代理人或者被代表人的商标进行注册，被代理人或者被代表人提出异议的，不予注册并禁止使用。</p><p>就同一种商品或者类似商品申请注册的商标与他人在先使用的未注册商标相同或者近似，申请人与该他人具有前款规定以外的合同、业务往来关系或者其他关系而明知该他人商标存在，该他人提出异议的，不予注册。</p><p>第十六条 商标中有商品的地理标志，而该商品并非来源于该标志所标示的地区，误导公众的，不予注册并禁止使用；但是，已经善意取得注册的继续有效。</p><p>前款所称地理标志，是指标示某商品来源于某地区，该商品的特定质量、信誉或者其他特征，主要由该地区的自然因素或者人文因素所决定的标志。</p><p>第十七条 外国人或者外国企业在中国申请商标注册的，应当按其所属国和中华人民共和国签订的协议或者共同参加的国际条约办理，或者按对等原则办理。</p><p>第十八条 申请商标注册或者办理其他商标事宜，可以自行办理，也可以委托依法设立的商标代理机构办理。</p><p>外国人或者外国企业在中国申请商标注册和办理其他商标事宜的，应当委托依法设立的商标代理机构办理。</p><p>第十九条 商标代理机构应当遵循诚实信用原则，遵守法律、行政法规，按照被代理人的委托办理商标注册申请或者其他商标事宜；对在代理过程中知悉的被代理人的商业秘密，负有保密义务。</p><p>委托人申请注册的商标可能存在本法规定不得注册情形的，商标代理机构应当明确告知委托人。</p><p>商标代理机构知道或者应当知道委托人申请注册的商标属于本法第十五条和第三十二条规定情形的，不得接受其委托。</p><p>商标代理机构除对其代理服务申请商标注册外，不得申请注册其他商标。</p><p>第二十条 商标代理行业组织应当按照章程规定，严格执行吸纳会员的条件，对违反行业自律规范的会员实行惩戒。商标代理行业组织对其吸纳的会员和对会员的惩戒情况，应当及时向社会公布。</p><p>第二十一条 商标国际注册遵循中华人民共和国缔结或者参加的有关国际条约确立的制度，具体办法由国务院规定。&nbsp;</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub84127_2_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二章 商标注册的申请\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-3\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二章 商标注册的申请</h3><p>第二十二条 商标注册申请人应当按规定的商品分类表填报使用商标的商品类别和商品名称，提出注册申请。</p><p>商标注册申请人可以通过一份申请就多个类别的商品申请注册同一商标。</p><p>商标注册申请等有关文件，可以以书面方式或者数据电文方式提出。</p><p>第二十三条 注册商标需要在核定使用范围之外的商品上取得商标专用权的，应当另行提出注册申请。</p><p>第二十四条 注册商标需要改变其标志的，应当重新提出注册申请。</p><p>第二十五条 商标注册申请人自其商标在外国第一次提出商标注册申请之日起六个月内，又在中国就相同商品以同一商标提出商标注册申请的，依照该外国同中国签订的协议或者共同参加的国际条约，或者按照相互承认优先权的原则，可以享有优先权。</p><p>依照前款要求优先权的，应当在提出商标注册申请的时候提出书面声明，并且在三个月内提交第一次提出的商标注册申请文件的副本；未提出书面声明或者逾期未提交商标注册申请文件副本的，视为未要求优先权。</p><p>第二十六条 商标在中国政府主办的或者承认的国际展览会展出的商品上首次使用的，自该商品展出之日起六个月内，该商标的注册申请人可以享有优先权。</p><p>依照前款要求优先权的，应当在提出商标注册申请的时候提出书面声明，并且在三个月内提交展出其商品的展览会名称、在展出商品上使用该商标的证据、展出日期等证明文件；未提出书面声明或者逾期未提交证明文件的，视为未要求优先权。</p><p>第二十七条 为申请商标注册所申报的事项和所提供的材料应当真实、准确、完整。&nbsp;</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub84127_2_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第三章 商标注册的审查和核准\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-4\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第三章 商标注册的审查和核准</h3><p>第二十八条 对申请注册的商标，商标局应当自收到商标注册申请文件之日起九个月内审查完毕，符合本法有关规定的，予以初步审定公告。</p><p>第二十九条 在审查过程中，商标局认为商标注册申请内容需要说明或者修正的，可以要求申请人做出说明或者修正。申请人未做出说明或者修正的，不影响商标局做出审查决定。</p><p>第三十条 申请注册的商标，凡不符合本法有关规定或者同他人在同一种商品或者类似商品上已经注册的或者初步审定的商标相同或者近似的，由商标局驳回申请，不予公告。</p><p>第三十一条 两个或者两个以上的商标注册申请人，在同一种商品或者类似商品上，以相同或者近似的商标申请注册的，初步审定并公告申请在先的商标；同一天申请的，初步审定并公告使用在先的商标，驳回其他人的申请，不予公告。</p><p>第三十二条 申请商标注册不得损害他人现有的在先权利，也不得以不正当手段抢先注册他人已经使用并有一定影响的商标。</p><p>第三十三条 对初步审定公告的商标，自公告之日起三个月内，在先权利人、利害关系人认为违反本法第十三条第二款和第三款、第十五条、第十六条第一款、第三十条、第三十一条、第三十二条规定的，或者任何人认为违反本法第十条、第十一条、第十二条规定的，可以向商标局提出异议。公告期满无异议的，予以核准注册，发给商标注册证，并予公告。</p><p>第三十四条 对驳回申请、不予公告的商标，商标局应当书面通知商标注册申请人。商标注册申请人不服的，可以自收到通知之日起十五日内向商标评审委员会申请复审。商标评审委员会应当自收到申请之日起九个月内做出决定，并书面通知申请人。有特殊情况需要延长的，经国务院工商行政管理部门批准，可以延长三个月。当事人对商标评审委员会的决定不服的，可以自收到通知之日起三十日内向人民法院起诉。</p><p>第三十五条 对初步审定公告的商标提出异议的，商标局应当听取异议人和被异议人陈述事实和理由，经调查核实后，自公告期满之日起十二个月内做出是否准予注册的决定，并书面通知异议人和被异议人。有特殊情况需要延长的，经国务院工商行政管理部门批准，可以延长六个月。</p><p>商标局做出准予注册决定的，发给商标注册证，并予公告。异议人不服的，可以依照本法第四十四条、第四十五条的规定向商标评审委员会请求宣告该注册商标无效。</p><p>商标局做出不予注册决定，被异议人不服的，可以自收到通知之日起十五日内向商标评审委员会申请复审。商标评审委员会应当自收到申请之日起十二个月内做出复审决定，并书面通知异议人和被异议人。有特殊情况需要延长的，经国务院工商行政管理部门批准，可以延长六个月。被异议人对商标评审委员会的决定不服的，可以自收到通知之日起三十日内向人民法院起诉。人民法院应当通知异议人作为第三人参加诉讼。</p><p>商标评审委员会在依照前款规定进行复审的过程中，所涉及的在先权利的确定必须以人民法院正在审理或者行政机关正在处理的另一案件的结果为依据的，可以中止审查。中止原因消除后，应当恢复审查程序。</p><p>第三十六条 法定期限届满，当事人对商标局做出的驳回申请决定、不予注册决定不申请复审或者对商标评审委员会做出的复审决定不向人民法院起诉的，驳回申请决定、不予注册决定或者复审决定生效。</p><p>经审查异议不成立而准予注册的商标，商标注册申请人取得商标专用权的时间自初步审定公告三个月期满之日起计算。自该商标公告期满之日起至准予注册决定做出前，对他人在同一种或者类似商品上使用与该商标相同或者近似的标志的行为不具有追溯力；但是，因该使用人的恶意给商标注册人造成的损失，应当给予赔偿。</p><p>第三十七条 对商标注册申请和商标复审申请应当及时进行审查。</p><p>第三十八条 商标注册申请人或者注册人发现商标申请文件或者注册文件有明显错误的，可以申请更正。商标局依法在其职权范围内作出更正，并通知当事人。</p><p>前款所称更正错误不涉及商标申请文件或者注册文件的实质性内容。&nbsp;</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub84127_2_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第四章 注册商标的续展、变更、转让和使用许可\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-5\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第四章 注册商标的续展、变更、转让和使用许可</h3><p>第三十九条 注册商标的有效期为十年，自核准注册之日起计算。</p><p>第四十条 注册商标有效期满，需要继续使用的，商标注册人应当在期满前十二个月内按照规定办理续展手续；在此期间未能办理的，可以给予六个月的宽展期。每次续展注册的有效期为十年，自该商标上一届有效期满次日起计算。期满未办理续展手续的，注销其注册商标。</p><p>商标局应当对续展注册的商标予以公告。</p><p>第四十一条 注册商标需要变更注册人的名义、地址或者其他注册事项的，应当提出变更申请。</p><p>第四十二条 转让注册商标的，转让人和受让人应当签订转让协议，并共同向商标局提出申请。受让人应当保证使用该注册商标的商品质量。</p><p>转让注册商标的，商标注册人对其在同一种商品上注册的近似的商标，或者在类似商品上注册的相同或者近似的商标，应当一并转让。</p><p>对容易导致混淆或者有其他不良影响的转让，商标局不予核准，书面通知申请人并说明理由。</p><p>转让注册商标经核准后，予以公告。受让人自公告之日起享有商标专用权。</p><p>第四十三条 商标注册人可以通过签订商标使用许可合同，许可他人使用其注册商标。许可人应当监督被许可人使用其注册商标的商品质量。被许可人应当保证使用该注册商标的商品质量。</p><p>经许可使用他人注册商标的，必须在使用该注册商标的商品上标明被许可人的名称和商品产地。</p><p>许可他人使用其注册商标的，许可人应当将其商标使用许可报商标局备案，由商标局公告。商标使用许可未经备案不得对抗善意第三人。&nbsp;</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub84127_2_6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第五章 注册商标的无效宣告\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-6\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第五章 注册商标的无效宣告</h3><p>第四十四条 已经注册的商标，违反本法第十条、第十一条、第十二条规定的，或者是以欺骗手段或者其他不正当手段取得注册的，由商标局宣告该注册商标无效；其他单位或者个人可以请求商标评审委员会宣告该注册商标无效。</p><p>商标局做出宣告注册商标无效的决定，应当书面通知当事人。当事人对商标局的决定不服的，可以自收到通知之日起十五日内向商标评审委员会申请复审。商标评审委员会应当自收到申请之日起九个月内做出决定，并书面通知当事人。有特殊情况需要延长的，经国务院工商行政管理部门批准，可以延长三个月。当事人对商标评审委员会的决定不服的，可以自收到通知之日起三十日内向人民法院起诉。</p><p>其他单位或者个人请求商标评审委员会宣告注册商标无效的，商标评审委员会收到申请后，应当书面通知有关当事人，并限期提出答辩。商标评审委员会应当自收到申请之日起九个月内做出维持注册商标或者宣告注册商标无效的裁定，并书面通知当事人。有特殊情况需要延长的，经国务院工商行政管理部门批准，可以延长三个月。当事人对商标评审委员会的裁定不服的，可以自收到通知之日起三十日内向人民法院起诉。人民法院应当通知商标裁定程序的对方当事人作为第三人参加诉讼。</p><p>第四十五条 已经注册的商标，违反本法第十三条第二款和第三款、第十五条、第十六条第一款、第三十条、第三十一条、第三十二条规定的，自商标注册之日起五年内，在先权利人或者利害关系人可以请求商标评审委员会宣告该注册商标无效。对恶意注册的，驰名商标所有人不受五年的时间限制。</p><p>商标评审委员会收到宣告注册商标无效的申请后，应当书面通知有关当事人，并限期提出答辩。商标评审委员会应当自收到申请之日起十二个月内做出维持注册商标或者宣告注册商标无效的裁定，并书面通知当事人。有特殊情况需要延长的，经国务院工商行政管理部门批准，可以延长六个月。当事人对商标评审委员会的裁定不服的，可以自收到通知之日起三十日内向人民法院起诉。人民法院应当通知商标裁定程序的对方当事人作为第三人参加诉讼。</p><p>商标评审委员会在依照前款规定对无效宣告请求进行审查的过程中，所涉及的在先权利的确定必须以人民法院正在审理或者行政机关正在处理的另一案件的结果为依据的，可以中止审查。中止原因消除后，应当恢复审查程序。</p><p>第四十六条 法定期限届满，当事人对商标局宣告注册商标无效的决定不申请复审或者对商标评审委员会的复审决定、维持注册商标或者宣告注册商标无效的裁定不向人民法院起诉的，商标局的决定或者商标评审委员会的复审决定、裁定生效。</p><p>第四十七条 依照本法第四十四条、第四十五条的规定宣告无效的注册商标，由商标局予以公告，该注册商标专用权视为自始即不存在。</p><p>宣告注册商标无效的决定或者裁定，对宣告无效前人民法院做出并已执行的商标侵权案件的判决、裁定、调解书和工商行政管理部门做出并已执行的商标侵权案件的处理决定以及已经履行的商标转让或者使用许可合同不具有追溯力。但是，因商标注册人的恶意给他人造成的损失，应当给予赔偿。</p><p>依照前款规定不返还商标侵权赔偿金、商标转让费、商标使用费，明显违反公平原则的，应当全部或者部分返还。&nbsp;</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_7\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub84127_2_7\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第六章 商标使用的管理\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-7\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第六章 商标使用的管理</h3><p>第四十八条 本法所称商标的使用，是指将商标用于商品、商品包装或者容器以及商品交易文书上，或者将商标用于广告宣传、展览以及其他商业活动中，用于识别商品来源的行为。</p><p>第四十九条 商标注册人在使用注册商标的过程中，自行改变注册商标、注册人名义、地址或者其他注册事项的，由地方工商行政管理部门责令限期改正；期满不改正的，由商标局撤销其注册商标。</p><p>注册商标成为其核定使用的商品的通用名称或者没有正当理由连续三年不使用的，任何单位或者个人可以向商标局申请撤销该注册商标。商标局应当自收到申请之日起九个月内做出决定。有特殊情况需要延长的，经国务院工商行政管理部门批准，可以延长三个月。</p><p>第五十条 注册商标被撤销、被宣告无效或者期满不再续展的，自撤销、宣告无效或者注销之日起一年内，商标局对与该商标相同或者近似的商标注册申请，不予核准。</p><p>第五十一条 违反本法第六条规定的，由地方工商行政管理部门责令限期申请注册，违法经营额五万元以上的，可以处违法经营额百分之二十以下的罚款，没有违法经营额或者违法经营额不足五万元的，可以处一万元以下的罚款。</p><p>第五十二条 将未注册商标冒充注册商标使用的，或者使用未注册商标违反本法第十条规定的，由地方工商行政管理部门予以制止，限期改正，并可以予以通报，违法经营额五万元以上的，可以处违法经营额百分之二十以下的罚款，没有违法经营额或者违法经营额不足五万元的，可以处一万元以下的罚款。</p><p>第五十三条 违反本法第十四条第五款规定的，由地方工商行政管理部门责令改正，处十万元罚款。</p><p>第五十四条 对商标局撤销或者不予撤销注册商标的决定，当事人不服的，可以自收到通知之日起十五日内向商标评审委员会申请复审。商标评审委员会应当自收到申请之日起九个月内做出决定，并书面通知当事人。有特殊情况需要延长的，经国务院工商行政管理部门批准，可以延长三个月。当事人对商标评审委员会的决定不服的，可以自收到通知之日起三十日内向人民法院起诉。</p><p>第五十五条 法定期限届满，当事人对商标局做出的撤销注册商标的决定不申请复审或者对商标评审委员会做出的复审决定不向人民法院起诉的，撤销注册商标的决定、复审决定生效。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_8\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub84127_2_8\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第七章 注册商标专用权的保护\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-8\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第七章 注册商标专用权的保护</h3><p>第五十六条 注册商标的专用权，以核准注册的商标和核定使用的商品为限。</p><p>第五十七条 有下列行为之一的，均属侵犯注册商标专用权：</p><p>（一）未经商标注册人的许可，在同一种商品上使用与其注册商标相同的商标的；</p><p>（二）未经商标注册人的许可，在同一种商品上使用与其注册商标近似的商标，或者在类似商品上使用与其注册商标相同或者近似的商标，容易导致混淆的；</p><p>（三）销售侵犯注册商标专用权的商品的；</p><p>（四）伪造、擅自制造他人注册商标标识或者销售伪造、擅自制造的注册商标标识的；</p><p>（五）未经商标注册人同意，更换其注册商标并将该更换商标的商品又投入市场的；</p><p>（六）故意为侵犯他人商标专用权行为提供便利条件，帮助他人实施侵犯商标专用权行为的；</p><p>（七）给他人的注册商标专用权造成其他损害的。</p><p>第五十八条 将他人注册商标、未注册的驰名商标作为企业名称中的字号使用，误导公众，构成不正当竞争行为的，依照《中华人民共和国反不正当竞争法》处理。</p><p>第五十九条 注册商标中含有的本商品的通用名称、图形、型号，或者直接表示商品的质量、主要原料、功能、用途、重量、数量及其他特点，或者含有的地名，注册商标专用权人无权禁止他人正当使用。</p><p>三维标志注册商标中含有的商品自身的性质产生的形状、为获得技术效果而需有的商品形状或者使商品具有实质性价值的形状，注册商标专用权人无权禁止他人正当使用。</p><p>商标注册人申请商标注册前，他人已经在同一种商品或者类似商品上先于商标注册人使用与注册商标相同或者近似并有一定影响的商标的，注册商标专用权人无权禁止该使用人在原使用范围内继续使用该商标，但可以要求其附加适当区别标识。</p><p>第六十条 有本法第五十七条所列侵犯注册商标专用权行为之一，引起纠纷的，由当事人协商解决；不愿协商或者协商不成的，商标注册人或者利害关系人可以向人民法院起诉，也可以请求工商行政管理部门处理。</p><p>工商行政管理部门处理时，认定侵权行为成立的，责令立即停止侵权行为，没收、销毁侵权商品和主要用于制造侵权商品、伪造注册商标标识的工具，违法经营额五万元以上的，可以处违法经营额五倍以下的罚款，没有违法经营额或者违法经营额不足五万元的，可以处二十五万元以下的罚款。对五年内实施两次以上商标侵权行为或者有其他严重情节的，应当从重处罚。销售不知道是侵犯注册商标专用权的商品，能证明该商品是自己合法取得并说明提供者的，由工商行政管理部门责令停止销售。</p><p>对侵犯商标专用权的赔偿数额的争议，当事人可以请求进行处理的工商行政管理部门调解，也可以依照《中华人民共和国民事诉讼法》向人民法院起诉。经工商行政管理部门调解，当事人未达成协议或者调解书生效后不履行的，当事人可以依照《中华人民共和国民事诉讼法》向人民法院起诉。</p><p>第六十一条 对侵犯注册商标专用权的行为，工商行政管理部门有权依法查处；涉嫌犯罪的，应当及时移送司法机关依法处理。</p><p>第六十二条 县级以上工商行政管理部门根据已经取得的违法嫌疑证据或者举报，对涉嫌侵犯他人注册商标专用权的行为进行查处时，可以行使下列职权：</p><p>（一）询问有关当事人，调查与侵犯他人注册商标专用权有关的情况；</p><p>（二）查阅、复制当事人与侵权活动有关的合同、发票、账簿以及其他有关资料；</p><p>（三）对当事人涉嫌从事侵犯他人注册商标专用权活动的场所实施现场检查；</p><p>（四）检查与侵权活动有关的物品；对有证据证明是侵犯他人注册商标专用权的物品，可以查封或者扣押。</p><p>工商行政管理部门依法行使前款规定的职权时，当事人应当予以协助、配合，不得拒绝、阻挠。</p><p>在查处商标侵权案件过程中，对商标权属存在争议或者权利人同时向人民法院提起商标侵权诉讼的，工商行政管理部门可以中止案件的查处。中止原因消除后，应当恢复或者终结案件查处程序。</p><p>第六十三条 侵犯商标专用权的赔偿数额，按照权利人因被侵权所受到的实际损失确定；实际损失难以确定的，可以按照侵权人因侵权所获得的利益确定；权利人的损失或者侵权人获得的利益难以确定的，参照该商标许可使用费的倍数合理确定。对恶意侵犯商标专用权，情节严重的，可以在按照上述方法确定数额的一倍以上三倍以下确定赔偿数额。赔偿数额应当包括权利人为制止侵权行为所支付的合理开支。</p><p>人民法院为确定赔偿数额，在权利人已经尽力举证，而与侵权行为相关的账簿、资料主要由侵权人掌握的情况下，可以责令侵权人提供与侵权行为相关的账簿、资料；侵权人不提供或者提供虚假的账簿、资料的，人民法院可以参考权利人的主张和提供的证据判定赔偿数额。</p><p>权利人因被侵权所受到的实际损失、侵权人因侵权所获得的利益、注册商标许可使用费难以确定的，由人民法院根据侵权行为的情节判决给予三百万元以下的赔偿。</p><p>第六十四条 注册商标专用权人请求赔偿，被控侵权人以注册商标专用权人未使用注册商标提出抗辩的，人民法院可以要求注册商标专用权人提供此前三年内实际使用该注册商标的证据。注册商标专用权人不能证明此前三年内实际使用过该注册商标，也不能证明因侵权行为受到其他损失的，被控侵权人不承担赔偿责任。</p><p>销售不知道是侵犯注册商标专用权的商品，能证明该商品是自己合法取得并说明提供者的，不承担赔偿责任。</p><p>第六十五条 商标注册人或者利害关系人有证据证明他人正在实施或者即将实施侵犯其注册商标专用权的行为，如不及时制止将会使其合法权益受到难以弥补的损害的，可以依法在起诉前向人民法院申请采取责令停止有关行为和财产保全的措施。</p><p>第六十六条 为制止侵权行为，在证据可能灭失或者以后难以取得的情况下，商标注册人或者利害关系人可以依法在起诉前向人民法院申请保全证据。</p><p>第六十七条 未经商标注册人许可，在同一种商品上使用与其注册商标相同的商标，构成犯罪的，除赔偿被侵权人的损失外，依法追究刑事责任。</p><p>伪造、擅自制造他人注册商标标识或者销售伪造、擅自制造的注册商标标识，构成犯罪的，除赔偿被侵权人的损失外，依法追究刑事责任。</p><p>销售明知是假冒注册商标的商品，构成犯罪的，除赔偿被侵权人的损失外，依法追究刑事责任。</p><p>第六十八条 商标代理机构有下列行为之一的，由工商行政管理部门责令限期改正，给予警告，处一万元以上十万元以下的罚款；对直接负责的主管人员和其他直接责任人员给予警告，处五千元以上五万元以下的罚款；构成犯罪的，依法追究刑事责任：</p><p>（一）办理商标事宜过程中，伪造、变造或者使用伪造、变造的法律文件、印章、签名的；</p><p>（二）以诋毁其他商标代理机构等手段招徕商标代理业务或者以其他不正当手段扰乱商标代理市场秩序的；</p><p>（三）违反本法第十九条第三款、第四款规定的。</p><p>商标代理机构有前款规定行为的，由工商行政管理部门记入信用档案；情节严重的，商标局、商标评审委员会并可以决定停止受理其办理商标代理业务，予以公告。</p><p>商标代理机构违反诚实信用原则，侵害委托人合法利益的，应当依法承担民事责任，并由商标代理行业组织按照章程规定予以惩戒。</p><p>第六十九条 从事商标注册、管理和复审工作的国家机关工作人员必须秉公执法，廉洁自律，忠于职守，文明服务。</p><p>商标局、商标评审委员会以及从事商标注册、管理和复审工作的国家机关工作人员不得从事商标代理业务和商品生产经营活动。</p><p>第七十条 工商行政管理部门应当建立健全内部监督制度，对负责商标注册、管理和复审工作的国家机关工作人员执行法律、行政法规和遵守纪律的情况，进行监督检查。</p><p>第七十一条 从事商标注册、管理和复审工作的国家机关工作人员玩忽职守、滥用职权、徇私舞弊，违法办理商标注册、管理和复审事项，收受当事人财物，牟取不正当利益，构成犯罪的，依法追究刑事责任；尚不构成犯罪的，依法给予处分。<span style=\"font-size: 12px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em; margin-left: 2px; color: rgb(51, 102, 204); cursor: default; padding: 0px 2px;\">[2]</span>&nbsp;</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_9\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub84127_2_9\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第八章 附则\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-9\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第八章 附则</h3><p>第七十二条 申请商标注册和办理其他商标事宜的，应当缴纳费用，具体收费标准另定。</p><p>第七十三条 本法自1983年3月1日起施行。1963年4月10日国务院公布的《商标管理条例》同时废止；其他有关商标管理的规定，凡与本法抵触的，同时失效。</p><p>本法施行前已经注册的商标继续有效。</p><p><br/></p>',`information_abstract`='                                                            ',`information_update`='1511407223' WHERE `id` = 1 [ RunTime:0.1000s ]
+
+[ 2017-11-23T11:20:23+08:00 ] ::1 /saide/admin.php/Information/information_lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 10,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:20:23+08:00 ] ::1 /saide/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-23T11:23:18+08:00 ] ::1 /saide/admin.php/Information/information_update/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_information` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image D:\xampp\htdocs\saide\RuntimeCache\Admin\8f5b1c559236fc8b5c91130aeaf9ae2c.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:23:34+08:00 ] ::1 /saide/admin.php/Information/information_doUpdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_information` WHERE `information_title` = '证券交易所管理办法' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_information` WHERE `information_page` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `admin_information` SET `information_page`='2',`information_image`='',`information_title`='证券交易所管理办法',`information_body`='<p style=\"text-align:center;\"><span style=\"FONT-SIZE: 12pt;font-family:黑体\">中国证券监督管理委员会令</span></p><p style=\"text-align:center;\"><span style=\"FONT-SIZE: 12pt;font-family:黑体\">第4号</span></p><p>　　现发布《证券交易所管理办法》，自发布之日起施行。</p><p style=\"text-align:right;\">中国证券监督管理委员会主席：周小川</p><p style=\"text-align:right;\">二○○一年十二月十二日　 &nbsp;</p><p style=\"text-align:center;\"><span style=\"FONT-SIZE: 15pt;font-family:黑体\">证券交易所管理办法(2001年修订)</span></p><p>　　（1997年11月30日国务院批准 1997年12月10日国务院证券委员会发布 
+根据《国务院关于修订〈证券交易所管理办法〉的批复》2001年12月12日中国证券监督管理委员会重新公布）</p><p style=\"text-align:center;\"><span style=\"FONT-SIZE: 12pt;font-family:黑体\">第一章 总 则</span></p><p>　　第一条 为加强对证券交易所的管理，明确证券交易所的职权和责任，维护证券市场的正常秩序，制定本办法。</p><p>　　第二条 本办法适用于在中华人民共和国境内设立的证券交易所。</p><p>　　第三条 
+本办法所称证券交易所是指依本办法规定条件设立的，不以营利为目的，为证券的集中和有组织的交易提供场所、设施，履行国家有关法律、法规、规章、政策规定的职责，实行自律性管理的法人。</p><p>　　第四条 证券交易所由中国证券监督管理委员会（以下简称“证监会”）监督管理。</p><p>　　证券交易所设立的证券登记结算机构，应当接受证监会的监督管理。</p><p>　　第五条 证券交易所的名称，应当标明“证券交易所”字样。其他任何单位和个人不得使用“证券交易所”的名称。</p><p>　　</p><p style=\"text-align:center;\"><span style=\"FONT-SIZE: 12pt;font-family:黑体\">第二章 证券交易所的设立和解散</span></p><p>　　第六条 设立证券交易所，由证监会审核，报国务院批准。</p><p>　　第七条 申请设立证券交易所，应当向证监会提交下列文件：</p><p>　　（一）申请书；</p><p>　　（二）章程和主要业务规则草案；</p><p>　　（三）拟加入会员名单；</p><p>　　（四）理事会候选人名单及简历；</p><p>　　（五）场地、设备及资金情况说明；</p><p>　　（六）拟任用管理人员的情况说明；</p><p>　　（七）证监会要求提交的其他文件。</p><p>　　第八条 证券交易所章程应当包括下列事项：</p><p>　　（一）设立目的；</p><p>　　（二）名称；</p><p>　　（三）主要办公及交易场所和设施所在地；</p><p>　　（四）职能范围；</p><p>　　（五）会员的资格和加入、退出程序；</p><p>　　（六）会员的权利和义务；</p><p>　　（七）对会员的纪律处分；</p><p>　　（八）组织机构及其职权；</p><p>　　（九）高级管理人员的产生、任免及其职责；</p><p>　　（十）资本和财务事项；</p><p>　　（十一）解散的条件和程序；</p><p>　　（十二）其他需要在章程中规定的事项。</p><p>　　第九条 解散证券交易所，经证监会审核同意后，报国务院批准。</p><p>　　</p><p style=\"text-align:center;\"><span style=\"FONT-SIZE: 12pt;font-family:黑体\">第三章 证券交易所的职能</span></p><p>　　第十条 证券交易所应当创造公开、公平、公正的市场环境，保证证券市场的正常运行。</p><p>　　第十一条 证券交易所的职能包括：</p><p>　　（一）提供证券交易的场所和设施；</p><p>　　（二）制定证券交易所的业务规则；</p><p>　　（三）接受上市申请、安排证券上市；</p><p>　　（四）组织、监督证券交易；</p><p>　　（五）对会员进行监管；</p><p>　　（六）对上市公司进行监管；</p><p>　　（七）设立证券登记结算机构；</p><p>　　（八）管理和公布市场信息；</p><p>　　（九）证监会许可的其他职能。</p><p>　　第十二条 证券交易所不得直接或者间接从事：</p><p>　　（一）以营利为目的的业务；</p><p>　　（二）新闻出版业；</p><p>　　（三）发布对证券价格进行预测的文字和资料；</p><p>　　（四）为他人提供担保；</p><p>　　（五）未经证监会批准的其他业务。</p><p>　　第十三条 证券交易所上市新的证券交易品种，应当报证监会批准。</p><p>　　第十四条 证券交易所以联网等方式为非本所上市的证券交易品种提供证券交易服务，应当报证监会批准。</p><p>　　第十五条 证券交易所应当在其职能范围内制定和修改业务规则。证券交易所制定和修改业务规则，由证券交易所理事会通过，报证监会批准。</p><p>　　证券交易所的业务规则包括上市规则、交易规则、会员管理规则及其他与证券交易活动有关的规则。</p><p>　　</p><p style=\"text-align:center;\"><span style=\"FONT-SIZE: 12pt;font-family:黑体\">第四章 证券交易所的组织</span></p><p>　　第十六条 证券交易所设会员大会、理事会和专门委员会。</p><p>　　第十七条 会员大会为证券交易所的最高权力机构。会员大会有以下职权：</p><p>　　（一）制定和修改证券交易所章程；</p><p>　　（二）选举和罢免会员理事；</p><p>　　（三）审议和通过理事会、总经理的工作报告；</p><p>　　（四）审议和通过证券交易所的财务预算、决算报告；</p><p>　　（五）决定证券交易所的其他重大事项。</p><p>　　章程的制定和修改经会员大会通过后，报证监会批准。</p><p>　　第十八条 会员大会由理事会召集，每年召开1次。有下列情形之一的，应当召开临时会员大会：</p><p>　　（一）理事人数不足本办法规定的最低人数；</p><p>　　（二）占会员总数1/3以上的会员请求；</p><p>　　（三）理事会认为必要。</p><p>　　第十九条 会员大会须有2/3以上会员出席，其决议须经出席会议的过半数以上会员表决通过后方为有效。</p><p>　　会员大会结束后10日内，证券交易所应当将大会全部文件及有关情况报证监会备案。</p><p>　　第二十条 理事会是证券交易所的决策机构，每届任期3年。</p><p>　　理事会的职责是：</p><p>　　（一）执行会员大会的决议；</p><p>　　（二）制定、修改证券交易所的业务规则；</p><p>　　（三）审定总经理提出的工作计划；</p><p>　　（四）审定总经理提出的财务预算、决算方案；</p><p>　　（五）审定对会员的接纳；</p><p>　　（六）审定对会员的处分；</p><p>　　（七）根据需要决定专门委员会的设置；</p><p>　　（八）会员大会授予的其他职责。</p><p>　　第二十一条 证券交易所理事会由7至13人组成，其中非会员理事人数不少于理事会成员总数的1/3，不超过理事会成员总数的1/2。</p><p>　　会员理事由会员大会选举产生。非会员理事由证监会委派。</p><p>　　理事连续任职不得超过两届。</p><p>　　理事会会议至少每季度召开一次。会议须有2/3以上理事出席，其决议应当经出席会议的2/3以上理事表决同意方为有效。理事会决议应当在会议结束后两个工作日内报证监会备案。</p><p>　　第二十二条 理事会设理事长1人，副理事长1至2人。理事长、副理事长由证监会提名，理事会选举产生。总经理应当是理事会成员。</p><p>　　第二十三条 理事长负责召集和主持理事会会议。理事长因故临时不能履行职责时，由理事长指定的副理事长代其履行职责。</p><p>　　理事长担任会员大会期间的会议主席。</p><p>　　理事长不得兼任证券交易所总经理。</p><p>　　第二十四条 证券交易所设总经理1人，副总经理1至3人。总经理、副总经理由证监会任免。总经理、副总经理不得由国家公务员兼任。</p><p>　　总经理、副总经理任期3年。总经理连续任职不得超过两届。总经理在理事会领导下负责证券交易所的日常管理工作，为证券交易所的法定代表人。总经理因故临时不能履行职责时，由总经理指定的副总经理代其履行职责。</p><p>　　第二十五条 证券交易所中层干部的任免报证监会备案，财务、人事部门负责人的任免报证监会批准。</p><p>　　第二十六条 理事会设监察委员会，每届任期3年。监察委员会主席由理事长兼任。监察委员会对理事会负责，行使下列职权：</p><p>　　（一）监察证券交易所高级管理人员和其他工作人员遵守国家有关法律、法规、规章、政策和证券交易所章程、业务规则的情况；</p><p>　　（二）监察高级管理人员执行会员大会、理事会决议的情况；</p><p>　　（三）监察证券交易所的财务情况；</p><p>　　（四）证券交易所章程规定的其他职权。</p><p>　　第二十七条 根据需要，理事会可以下设其他专门委员会。各专门委员会的职责、任期和人员组成等事项，应当在证券交易所章程中作出具体规定。</p><p>　　各专门委员会的经费应当纳入证券交易所的预算。</p><p>　　第二十八条 有下列情形之一的，不得招聘为证券交易所从业人员，不得担任证券交易所高级管理人员：</p><p>　　（一）犯有贪污、贿赂、侵占财产、挪用财产罪或者破坏社会经济秩序罪，或者因犯罪被剥夺政治权利；</p><p>　　（二）因违法、违纪行为被解除职务的证券经营机构或者其他金融机构的从业人员，自被解除职务之日起未逾5年；</p><p>　　（三）因违法行为被撤消资格的律师、注册会计师或者法定资产评估机构、验资机构的专业人员，自被撤消资格之日起未逾5年；</p><p>　　（四）担任因违法行为被吊销营业执照的公司、企业的法定代表人并对该公司、企业被吊销营业执照负有个人责任的，自被吊销营业执照之日起未逾5年；</p><p>　　（五）担任因经营管理不善而破产的公司、企业的董事、厂长或者经理并对该公司、企业的破产负有个人责任的，自破产之日起未逾5年；</p><p>　　（六）被开除的国家机关工作人员，自被开除之日起未逾5年；</p><p>　　（七）国家有关法律、法规、规章、政策规定的其他情况。</p><p>　　第二十九条 
+证券交易所高级管理人员的产生、聘任有不正当情况，或者前述人员在任期内有违反国家有关法律、法规、规章、政策和证券交易所章程、业务规则的行为，或者由于其他原因，不适宜继续担任其所担任的职务时，证监会有权解除有关人员的职务，并任命新的人选。</p><p>　　</p><p style=\"text-align:center;\"><span style=\"FONT-SIZE: 12pt;font-family:黑体\">第五章 
+证券交易所对证券交易活动的监管</span></p><p>　　第三十条 证券交易所应当制定具体的交易规则。其内容包括：</p><p>　　（一）交易证券的种类和期限；</p><p>　　（二）证券交易方式和操作程序；</p><p>　　（三）证券交易中的禁止行为；</p><p>　　（四）清算交割事项；</p><p>　　（五）交易纠纷的解决；</p><p>　　（六）上市证券的暂停、恢复与取消交易；</p><p>　　（七）证券交易所的开市、收市、休市及异常情况的处理；</p><p>　　（八）交易手续费及其他有关费用的收取方式和标准；</p><p>　　（九）对违反交易规则行为的处理规定；</p><p>　　（十）证券交易所证券交易信息的提供和管理；</p><p>　　（十一）股价指数的编制方法和公布方式；</p><p>　　（十二）其他需要在交易规则中规定的事项。</p><p>　　第三十一条 证券交易所应当公布即时行情，并按日制作证券行情表，记载下列事项，以适当方式公布：</p><p>　　（一）上市证券的名称；</p><p>　　（二）开市、最高、最低及收市价格；</p><p>　　（三）与前一交易日收市价比较后的涨跌情况；</p><p>　　（四）成交量、值的分计及合计；</p><p>　　（五）股价指数及其涨跌情况；</p><p>　　（六）证监会要求公开的其他事项。</p><p>　　第三十二条 证券交易所应当就其市场内的成交情况编制日报表、周报表、月报表和年报表，并及时向社会公布。</p><p>　　第三十三条 证券交易所应当在业务规则中对证券交易合同的生效和废止条件作出详细规定，并维护在本证券交易所达成的证券交易合同的有效性。</p><p>　　第三十四条 证券交易所应当保证投资者有平等机会获取证券市场的交易行情和其他公开披露的信息，并有平等的交易机会。</p><p>　　第三十五条 
+证券交易所有权依照有关规定，暂停或者恢复上市证券的交易。暂停交易的时间超过1个交易日时，应当报证监会备案；暂停交易的时间超过5个交易日时，应当事先报证监会批准。</p><p>　　证监会有权要求证券交易所暂停或者恢复上市证券的交易。</p><p>　　第三十六条 证券交易所应当建立市场准入制度，并根据证券法规的规定或者证监会的要求，限制或者禁止特定证券投资者的证券交易行为。</p><p>　　除上述情况外，证券交易所不得限制或者禁止证券投资者的证券买卖行为。</p><p>　　第三十七条 证券交易所及其会员应当妥善保存证券交易中产生的委托资料、交易记录、清算文件等，并制定相应的查询和保密管理措施。</p><p>　　证券交易所应当根据需要制定上述文件的保存期，并报证监会批准。重要文件的保存期应当不少于20年。</p><p>　　第三十八条 证券交易所应当保证其业务规则得到切实执行，对违反业务规则的行为要及时处理。</p><p>　　对国家有关法律、法规、规章、政策中规定的有关证券交易的违法、违规行为，证券交易所负有发现、制止和上报的责任，并有权在职责范围内予以查处。</p><p>　　第三十九条 证券交易所应当建立符合证券市场监督管理和实时监控要求的计算机系统，并设立负责证券市场监管工作的专门机构。</p><p>　　证监会可以要求证券交易所之间建立以市场监管为目的的信息交换制度和联合监管制度，共同监管跨市场的不正当交易行为，控制市场风险。</p><p>　　</p><p style=\"text-align:center;\"><span style=\"FONT-SIZE: 12pt;font-family:黑体\">第六章 证券交易所对会员的监管</span></p><p>　　第四十条 证券交易所应当制定具体的会员管理规则。其内容包括：</p><p>　　（一）取得会员资格的条件和程序；</p><p>　　（二）席位管理办法；</p><p>　　（三）与证券交易和清算业务有关的会员内部监督、风险控制、电脑系统的标准及维护等方面的要求；</p><p>　　（四）会员的业务报告制度；</p><p>　　（五）会员所派出市代表在交易场所内的行为规范；</p><p>　　（六）会员及其出市代表违法、违规行为的处罚；</p><p>　　（七）其他需要在会员管理规则中规定的事项。</p><p>　　第四十一条 证券交易所接纳的会员应当是有权部门批准设立并具有法人地位的境内证券经营机构。</p><p>　　境外证券经营机构设立的驻华代表处，经申请可以成为证券交易所的特别会员。特别会员的资格及权利、义务由证券交易所章程规定。</p><p>　　第四十二条 
+证券交易所决定接纳或者开除会员应当在决定后的5个工作日内向证监会备案；决定接纳或者开除正式会员以外的其他会员应当在履行有关手续5个工作日之前报证监会备案。</p><p>　　第四十三条 
+证券交易所必须限定交易席位的数量。证券交易所设立普通席位以外的席位应当报证监会批准。证券交易所调整普通席位和普通席位以外的其他席位的数量，应当事先报证监会批准。</p><p>　　第四十四条 
+证券交易所应当对会员取得的交易席位实施严格管理。会员转让席位必须按照证券交易所的有关管理规定由交易所审批。严禁会员将席位全部或者部分以出租或者承包等形式交由其他机构和个人使用。</p><p>　　第四十五条 证券交易所应当根据国家关于证券经营机构证券自营业务管理的规定和证券交易所业务规则，对会员的证券自营业务实施下列监管：</p><p>　　（一）要求会员的自营买卖业务必须使用专门的股票账户和资金账户，并采取技术手段严格管理；</p><p>　　（二）检查开设自营账户的会员是否具备规定的自营资格；</p><p>　　（三）要求会员按月编制库存证券报表，并于次月5日前报送证券交易所；</p><p>　　（四）对自营业务规定具体的风险控制措施，并报证监会备案；</p><p>　　（五）每年6月30日和12月31日过后的30日内向证监会报送各家会员截止该日的证券自营业务情况；</p><p>　　（六）其他监管事项。</p><p>　　第四十六条 证券交易所应当在业务规则中对会员代理客户买卖证券业务做出详细规定，并实施下列监管：</p><p>　　（一）制定会员与客户所应签订的代理协议的格式并检查其内容的合法性；</p><p>　　（二）规定接受客户委托的程序和责任，并定期抽查执行客户委托的情况；</p><p>　　（三）要求会员每月过后5日内就其交易业务和客户投诉等情况提交报告，报告格式和内容由证券交易所报证监会批准后颁布。</p><p>　　第四十七条 
+证券交易所每年应当对会员的财务状况、内部风险控制制度以及遵守国家有关法规和证券交易所业务规则等情况进行抽样或者全面检查，并将检查结果上报证监会。</p><p>　　第四十八条 证券交易所有权要求会员提供有关业务的报表、账册、交易记录及其他文件、资料。</p><p>　　第四十九条 证券交易所会员应当接受证券交易所的监督管理，并主动报告有关问题。</p><p>　　第五十条 证券交易所可以根据证券交易所章程和业务规则对会员的违规行为进行制裁。</p><p>&nbsp;</p><p style=\"text-align:center;\">　　<span style=\"FONT-SIZE: 12pt;font-family:黑体\">第七章 
+证券交易所对上市公司的监管</span></p><p>　　第五十一条 证券交易所应当根据有关法律、行政法规的规定制定具体的上市规则。其内容包括：</p><p>　　（一）证券上市的条件、申请和批准程序以及上市协议的内容及格式；</p><p>　　（二）上市公告书的内容及格式；</p><p>　　（三）上市推荐人的资格、责任、义务；</p><p>　　（四）上市费用及其他有关费用的收取方式和标准；</p><p>　　（五）对违反上市规则行为的处理规定；</p><p>　　（六）其他需要在上市规则中规定的事项。</p><p>　　第五十二条 
+证券交易所应当与上市公司订立上市协议，确定相互间的权利义务关系。上市协议的内容与格式应当符合国家有关法律、法规、规章、政策的规定，并报证监会备案。</p><p>　　交易所与任何上市公司所签上市协议的内容与格式均应一致；确需与某些上市公司签署特殊条款时，报证监会批准。</p><p>　　上市协议应当包括下列内容：</p><p>　　（一）上市费用的项目和数额；</p><p>　　（二）证券交易所为公司证券发行、上市所提供的技术服务；</p><p>　　（三）要求公司指定专人负责证券事务；</p><p>　　（四）上市公司定期报告、临时报告的报告程序及回复交易所质询的具体规定；</p><p>　　（五）股票停牌事宜；</p><p>　　（六）协议双方违反上市协议的处理；</p><p>　　（七）仲裁条款；</p><p>　　（八）证券交易所认为需要在上市协议中明确的其他内容。</p><p>　　第五十三条 证券交易所应当建立上市推荐人制度，保证上市公司符合上市要求，并在上市后由上市推荐人指导上市公司履行相关义务。</p><p>　　证券交易所应当监督上市推荐人切实履行业务规则中规定的相关职责。上市推荐人不按规定履行职责的，证券交易所有权根据业务规则的规定对上市推荐人予以处分。</p><p>　　第五十四条 
+证券交易所应当根据证监会统一制定的格式和证券交易所的有关业务规则，复核上市公司的配股说明书、上市公告书等与募集资金及证券上市直接相关的公开说明文件，并监督上市公司按时公布。证券交易所可以要求上市公司或者上市推荐人就上述文件做出补充说明并予以公布。</p><p>　　第五十五条 
+证券交易所应当督促上市公司按照规定的报告期限和证监会统一制定的格式，编制并公布年度报告、中期报告，并在其公布后进行检查，发现问题应当根据有关规定及时处理。证券交易所应当在报告期结束后20个工作日内，将检查情况报告证监会。</p><p>　　第五十六条 
+证券交易所应当审核上市公司编制的临时报告。临时报告的内容涉及《公司法》、国家证券法规以及公司章程中规定需要履行审批程序的事项，或者涉及应当报证监会批准的事项，证券交易所应当在确认其已履行规定的审批手续后，方可准予其公布。</p><p>　　第五十七条 出现以下情况之一的，证券交易所应当暂停上市公司的股票交易，并要求上市公司立即公布有关信息：</p><p>　　（一）该公司股票交易发生异常波动；</p><p>　　（二）有投资者发出收购该公司股票的公开要约；</p><p>　　（三）上市公司依据上市协议提出停牌申请；</p><p>　　（四）证监会依法作出暂停股票交易的决定时；</p><p>　　（五）证券交易所认为必要时。</p><p>　　第五十八条 
+证券交易所应当设立上市公司股东持股情况的档案资料，并根据国家有关法律、法规、规章、政策对股东持股数量及其买卖行为的限制规定，对上市公司股东在交易过程中的持股变动情况进行即时统计和监督。上市公司股东因持股数量变动而产生信息披露义务的，证券交易所应当在其履行信息披露之前，限制其继续交易该股票，督促其及时履行信息披露义务，并立即向证监会报告。</p><p>　　第五十九条 
+证券交易所应当采取必要的技术措施，将上市公司尚未上市流通股份与其已上市流通股份区别开来。未经证监会批准，不得准许尚未上市流通股份进入交易系统。</p><p>　　第六十条 证券交易所应当采取必要的措施，保证上市公司董事、监事、经理不得卖出本人持有的本公司股票。</p><p>　　第六十一条 上市公司应当建立上市公司信息统计系统，并按照交易所的要求及时报送、公布有关统计资料。</p><p>　　第六十二条 
+证券交易所对上市公司未按规定履行信息披露义务的行为，可以按照上市协议的规定予以处理，并可以就其违反证券法规的行为提出处罚意见，报证监会予以处罚。</p><p>　　第六十三条 证券交易所应当比照本章的有关规定，对其他上市证券的发行人进行监管。</p><p>　　</p><p style=\"text-align:center;\"><span style=\"FONT-SIZE: 12pt;font-family:黑体\">第八章 证券登记结算机构</span></p><p>　　第六十四条 证券交易所应当设立一个证券登记结算机构，为证券的发行和在证券交易所的证券交易活动提供集中的登记、存管、结算与交收服务。</p><p>　　第六十五条 证券登记结算机构的注册资本应当不低于1亿元人民币。</p><p>　　第六十六条 证券登记结算机构应当为证券市场提供安全、公平、高效的服务，并接受证券交易所对其业务活动的监督。</p><p>　　第六十七条 证券登记结算机构的业务范围和职能包括：</p><p>　　（一）股权登记；</p><p>　　（二）证券持有人名册登记和证券账户的设立；</p><p>　　（三）记名证券的存管和过户；</p><p>　　（四）证券交易所的所有上市品种交易后的结算与交收；</p><p>　　（五）代理证券的还本付息或者权益分派及其他代理人服务；</p><p>　　（六）实物证券的保管；</p><p>　　（七）与上述业务有关的咨询、培训等服务；</p><p>　　（八）证监会批准的其他业务。</p><p>　　第六十八条 证券登记结算机构应当在其职能范围内制定和修改章程和业务规则，报证监会批准后生效。</p><p>　　证券登记结算机构的总经理、副总经理的任免须报证监会批准。</p><p>　　第六十九条 
+证券登记结算机构应当建立为证券交易所的上市证券的交易提供集中的登记、存管、结算和交收服务的系统（以下简称结算系统），有必备的电脑、通讯设备，有完整的数据安全保护和数据备份措施，确保证券登记、存管、结算交收资料和电脑、通讯系统的安全。</p><p>　　第七十条 证券登记结算机构可以通过签订协议的方式委托其他证券登记结算机构代理上市证券的部分登记、存管、结算和交收服务。</p><p>　　第七十一条 证券登记结算机构应当与证券交易所签订业务协议，并报证监会备案。</p><p>　　第七十二条 
+证券交易所的会员为参加证券交易所交易市场的交易而缴存的清算头寸、清算交割准备金，应当由证券登记结算机构专项存储。证券登记结算机构应当在业务规则中明确上述资金的用途及收取标准，并对上述资金严格管理，严禁透支，不得挪作他用。</p><p>　　证券登记结算机构应当设立结算系统风险保证基金，并建立一套完整的风险管理系统，保证证券交易与结算交收的连续性和安全性。结算系统风险保证金的构成和使用原则应当在证券登记结算机构的业务规则中做出明确规定。</p><p>　　第七十三条 
+证券登记结算机构应当依据与证券发行人签订的服务合同，定期或者不定期地向证券发行人提供证券持有人名册及其他有关资料。在无纸化发行和交易的条件下，证券登记结算机构提供的证券持有人名册是证明证券持有人权益的有效凭证。证券登记结算机构应当确保证券持有人名册的合法性、真实性和完整性。任何机构和个人不得伪造、篡改、损毁证券持有人名册及其他相关资料。</p><p>　　第七十四条 证券登记结算机构有权拒绝任何单位或者个人查询证券持有人名册及其相关资料，但下列情况除外：</p><p>　　（一）证券持有人本人或者委托经公证的受托人查询；</p><p>　　（二）依本办法第七十三条向证券发行人提供证券持有人名册及其他有关资料；</p><p>　　（三）证监会及其授权部门、人民法院、人民检察院及其他国家机关依照法律、法规的规定和程序进行的查询和取证。</p><p>　　第七十五条 证券登记结算机构应当按照证监会的规定，建立和健全本机构的业务、财务和安全防范等内部管理制度和工作程序，并报证监会备案。</p><p>　　证券登记结算机构应当妥善保存证券登记、存管、结算和交收业务中形成的原始凭证，根据需要制定保存期，并报证监会批准。重要文件的保存期应当不少于20年。会计凭证和报表按财政部门的规定办理。</p><p>　　第七十六条 证券登记结算机构管理人员及工作人员的任职条件比照本办法第二十八条的规定执行。</p><p>　　第七十七条 证券登记结算机构申请歇业、解散，在根据法定程序办理手续的同时，应当报证监会备案。</p><p>　　</p><p style=\"text-align:center;\"><span style=\"FONT-SIZE: 12pt;font-family:黑体\">第九章 管理与监督</span></p><p>　　第七十八条 证券交易所不得以任何方式转让其依照本办法取得的设立及业务许可。</p><p>　　第七十九条 证券交易所、证券登记结算机构的高级管理人员对其任职机构负有诚实信用的义务。</p><p>　　证券交易所、证券登记结算机构的总经理离任时，交易所理事会应当聘请地方审计局或者具有从事证券相关业务资格的会计师事务所进行总经理离任审计。交易所聘请的审计机构应当报证监会认可。</p><p>　　第八十条 
+证券交易所、证券登记结算机构的总经理、副总经理不得在任何营利性组织、团体和机构中兼职。证券交易所的非会员理事及其他工作人员不得以任何形式在证券交易所会员公司兼职。</p><p>　　第八十一条 
+证券交易所、证券登记结算机构的高级管理人员及其他工作人员不得以任何方式泄露或者利用内幕信息，不得以任何方式从证券交易所的会员、上市公司获取利益。</p><p>　　第八十二条 
+证券交易所、证券登记结算机构的高级管理人员及其他工作人员在履行职责时，遇到与本人或者其亲属等有利害关系情形的，应当回避。具体回避事项由其章程、业务规则规定。</p><p>　　第八十三条 证券交易所、证券登记结算机构收取的各种资金和费用应当严格按照规定用途使用，并制定专项管理规则进行管理，不得挪作他用。</p><p>　　证券交易所的收支结余不得分配给会员。</p><p>　　上述各种费用的收取标准及收取方式应当报收费主管部门备案。</p><p>　　第八十四条 证券交易所、证券登记结算机构应当履行下列报告义务：</p><p>　　（一）每一财政年度终了后3个月内向证监会提交经具有证券从业资格的会计师事务所审计的财务报告。</p><p>　　（二）每一季度结束后15日内、每一年度结束后30日内，就业务情况、国家有关法律、法规、规章、政策的执行情况等向证监会提交季度、年度工作报告。年度工作报告抄报证券交易所所在地人民政府。</p><p>　　（三）国家其他有关法律、法规、规章、政策及本办法其他条款中规定的报告事项。</p><p>　　（四）证监会要求的其他报告事项。</p><p>　　第八十五条 遇有重大事项，证券交易所应当随时向证监会报告。</p><p>　　前款所称重大事项包括：</p><p>　　（一）发现证券登记结算机构、证券交易所会员、上市公司、证券投资者和证券交易所工作人员存在或者可能存在严重违反国家有关法律、法规、规章、政策的行为；</p><p>　　（二）发现证券市场中存在产生严重违反国家有关法律、法规、规章、政策行为的潜在风险；</p><p>　　（三）证券市场中出现国家有关法律、法规、规章、政策未作明确规定，但会对证券市场产生重大影响的事项；</p><p>　　（四）执行国家有关法律、法规、规章、政策过程中，需由证券交易所做出重大决策的事项；</p><p>　　（五）证券交易所认为需要报告的其他事项；</p><p>　　（六）证监会规定的其他事项。</p><p>　　第八十六条 遇有以下事项，证券交易所应当随时向证监会报告，同时抄报交易所所在地人民政府，并采取适当方式告知交易所会员和证券投资者：</p><p>　　（一）发生影响证券交易所安全运转的情况；</p><p>　　（二）证券交易所因不可抗力导致停市，或者为维护证券交易正常秩序采取技术性停市措施。</p><p>　　第八十七条 证券交易所、证券登记结算机构应当根据证监会的要求，向证监会提供证券市场信息、业务文件和其他有关的数据、资料。</p><p>　　第八十八条 证监会有权要求证券交易所提供会员和上市公司的有关资料。</p><p>　　第八十九条 证监会有权要求证券交易所和证券登记结算机构对其章程和业务规则进行修改。</p><p>　　第九十条 证监会有权派员监督检查证券交易所和证券登记结算机构的业务、财务状况，或者调查其他有关事项。</p><p>　　上述检查人员在执行检查任务时应当出示合法证明文件。</p><p>　　第九十一条 
+证券交易所、证券登记结算机构涉及诉讼，上述机构的高级管理人员因履行职责涉及诉讼或者依照国家有关法律、法规、规章应当受到解除职务的处分时，证券交易所应当及时向证监会报告。</p><p>　</p><p style=\"text-align:center;\">　<span style=\"FONT-SIZE: 12pt;font-family:黑体\">第十章 罚 则</span></p><p>　　第九十二条 证券交易所违反本办法第十二条的规定，从事与其职能无关的业务的，由证监会限期改正；构成犯罪的，由司法机关依法追究刑事责任。</p><p>　　第九十三条 证券交易所违反本办法第十三条和第十四条规定的，由证监会责令停止该交易品种的交易，并对交易所有关负责人给予纪律处分。</p><p>　　第九十四条 证券交易所违反本办法规定，在监管工作中不履行职责，或者不履行本办法规定的有关报告义务，由证监会责令限期改正，并给予通报批评。</p><p>　　后果严重，影响证券交易活动正常开展的，证监会有权责令证券交易所限期停业整顿。</p><p>　　第九十五条 
+证券登记结算机构违反本办法规定，证监会可以责令证券交易所按证券交易所与证券登记结算机构签订的业务协议对证券登记结算机构进行处罚，或者由证监会按照国家有关规定进行处罚。</p><p>　　第九十六条 
+证券交易所存在下列情况时，由证监会对有关高级管理人员视情节轻重分别给予警告、记过、记大过、撤职等行政处分，并责令证券交易所对有关的业务部门负责人给予纪律处分；造成严重后果的，由证监会按本办法第二十九条的规定处理；构成犯罪的，由司法机关依法追究有关责任人员的刑事责任：</p><p>　　（一）对国家有关法律、法规、规章、政策和证监会颁布的制度、办法、规定不传达、不执行；</p><p>　　（二）对工作不负责任，管理混乱，致使有关业务制度和操作规程不健全、不落实；</p><p>　　（三）对证监会的监督检查工作不接受、不配合，对工作中发现的重大隐患、漏洞不重视、不报告、不及时解决；</p><p>　　（四）对在证券交易所内发生的违规行为未能及时采取有效措施予以制止或者查处不力。</p><p>　　第九十七条 
+证券交易所的任何工作人员有责任拒绝执行任何人员向其下达的违反国家有关法律、法规、规章、政策和证券交易所有关规定的工作任务，并有责任向其更高一级领导和证监会报告具体情况。没有拒绝执行上述工作任务，或者虽拒绝执行但没有报告的，要承担相应责任。</p><p>　　第九十八条 
+证券交易所会员、上市公司违反国家有关法律、法规、规章、政策和证券交易所章程、业务规则的规定，并且证券交易所没有履行规定的监督管理责任的，证监会有权按照本办法的有关规定，追究证券交易所和证券交易所有关高级管理人员和直接责任人的责任。</p><p>　　第九十九条 
+证券交易所应当在其职责范围内，及时向证监会报告其会员、上市公司及其他人员违反国家有关法律、法规、规章、政策的情况；国家有关法律、法规、规章授权由证券交易所处罚，或者按照证券交易所章程、业务规则、上市协议等证券交易所可以处罚的，证券交易所有权按照有关规定予以处罚，并报证监会备案；国家有关法律、法规、规章规定由证监会处罚的，证券交易所可以向证监会提出处罚建议。</p><p>　　证监会可以要求证券交易所对其会员、上市公司进行处罚。</p><p>　　第一百条 
+证券交易所、证券交易所会员、上市公司违反本办法规定，直接责任人和与直接责任人有直接利益关系者因此而形成的非法获利或者避损，由证监会予以没收并处以相当于非法获利或者避损金额1至3倍的罚款。</p><p>　　</p><p style=\"text-align:center;\"><span style=\"FONT-SIZE: 12pt;font-family:黑体\">第十一章 附 则</span></p><p>　　第一百零一条 本办法下列用语的含义：</p><p>　　（一）“上市”是指证券发行人经批准后将其证券在证券交易所挂牌交易。</p><p>　　（二）“上市公告书”是指上市公司按照国家有关法律、法规、规章、政策和证券交易所业务规则的要求，于其证券上市前，就其公司及证券上市的有关事宜，通过指定的报刊向社会公众公布的信息披露文件。</p><p>　　（三）“上市费用”是指上市证券的发行人按照证券交易所的业务规则，就其证券上市向证券交易所交纳的费用。</p><p>　　（四）“上市推荐人”是指由证券交易所认可的、协助证券发行人申请其证券上市的证券交易所正式会员。</p><p>　　（五）“席位费”是指证券交易所会员按照证券交易所章程、业务规则向证券交易所交纳的交易席位使用费。</p><p>　　（六）“证券交易所高级管理人员”是指证券交易所的理事、总经理、副总经理和各专门委员会委员。</p><p>　　（七）“证券登记结算机构”是指由证券交易所设立的，不以营利为目的，为证券的发行和在证券交易所的证券交易活动提供集中的登记、存管、结算与交收服务的证券中介服务机构。</p><p>　　本办法未作定义的用语的含义，依照国家其他有关法律、法规、规章、政策中的定义确定。</p><p>　　第一百零二条 本办法由证监会负责解释。</p><p>　　第一百零三条 本办法自公布之日起施行，1996年8月21日证券委公布的《证券交易所管理办法》同时废止。</p><p><br/></p>',`information_abstract`='                                                            ',`information_update`='1511407414' WHERE `id` = 2 [ RunTime:0.0600s ]
+
+[ 2017-11-23T11:23:34+08:00 ] ::1 /saide/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:23:34+08:00 ] ::1 /saide/admin.php/Information/information_lists/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 10,10   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:23:35+08:00 ] ::1 /saide/admin.php/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1511366400' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >='1511280000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >='1511107200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >='1509465600' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1511366400' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1511280000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1511107200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1509465600' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1511366400' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1511280000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1511107200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1509465600' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1511366400' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1511280000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1511107200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1509465600' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1511366400' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1511280000' ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1511107200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1509465600' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\RuntimeCache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\RuntimeCache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-23T11:25:43+08:00 ] ::1 /saide/admin.php/Information/information_lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:25:46+08:00 ] ::1 /saide/admin.php/Information/information_update/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_information` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image D:\xampp\htdocs\saide\RuntimeCache\Admin\8f5b1c559236fc8b5c91130aeaf9ae2c.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:26:30+08:00 ] ::1 /saide/admin.php/Information/information_doUpdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_information` WHERE `information_title` = '中华人民共和国企业所得税法' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_information` WHERE `information_page` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `admin_information` SET `information_page`='3',`information_image`='',`information_title`='中华人民共和国企业所得税法',`information_body`='<p><span style=\"font-family: \" microsoft=\"\" background-color:=\"\">2007年3月16日第十届全国人民代表大会第五次会议通过）</span></p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"padding: 0px; margin: 0px;\"><span style=\"font-family:宋体;padding: 0px; margin: 0px;\">第一章　总　则</span></span></p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"padding: 0px; margin: 0px;\"><span style=\"font-family:宋体;padding: 0px; margin: 0px;\">第二章　应纳税所得额</span></span></p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"padding: 0px; margin: 0px;\"><span style=\"font-family:宋体;padding: 0px; margin: 0px;\">第三章　应纳税额</span></span></p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"padding: 0px; margin: 0px;\"><span style=\"font-family:宋体;padding: 0px; margin: 0px;\">第四章　税收优惠</span></span></p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"padding: 0px; margin: 0px;\"><span style=\"font-family:宋体;padding: 0px; margin: 0px;\">第五章　源泉扣缴</span></span></p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"padding: 0px; margin: 0px;\"><span style=\"font-family:宋体;padding: 0px; margin: 0px;\">第六章　特别纳税调整</span></span></p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"padding: 0px; margin: 0px;\"><span style=\"font-family:宋体;padding: 0px; margin: 0px;\">第七章　征收管理</span></span></p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"padding: 0px; margin: 0px;\"><span style=\"font-family:宋体;padding: 0px; margin: 0px;\">第八章　附　则</span></span></p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"padding: 0px; margin: 0px;\"><span style=\"font-family:黑体;padding: 0px; margin: 0px;\"></span></span></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第一章 总则</h3><p><span style=\"font-weight: 700;\">第一条</span></p><p>在中华人民共和国境内，企业和其他取得收入的组织（以下统称企业）为企业所得税的纳税人，依照本法的规定缴纳<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E4%BC%81%E4%B8%9A%E6%89%80%E5%BE%97%E7%A8%8E\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">企业所得税</a>。</p><p><a target=\"_blank\" href=\"https://baike.baidu.com/item/%E4%B8%AA%E4%BA%BA%E7%8B%AC%E8%B5%84%E4%BC%81%E4%B8%9A\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">个人独资企业</a>、<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%90%88%E4%BC%99%E4%BC%81%E4%B8%9A\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">合伙企业</a>不适用本法。</p><p><span style=\"font-weight: 700;\">第二条</span></p><p>企业分为居民企业和非居民企业。</p><p>本法所称居民企业，是指依法在中国境内成立，或者依照外国(地区)法律成立但<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%AE%9E%E9%99%85%E7%AE%A1%E7%90%86%E6%9C%BA%E6%9E%84\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">实际管理机构</a>在中国境内的企业。</p><p>本法所称非居民企业，是指依照外国（地区）法律成立且实际管理机构不在中国境内，但在中国境内设立机构、场所的，或者在中国境内未设立机构、场所，但有来源于中国境内所得的企业。</p><p><span style=\"font-weight: 700;\">第三条</span></p><p>居民企业应当就其来源于中国境内、境外的所得缴纳企业所得税。</p><p>非居民企业在中国境内设立机构、场所的，应当就其所设机构、场所取得的来源于中国境内的所得，以及发生在中国境外但与其所设机构、场所有实际联系的所得，缴纳企业所得税。</p><p>非居民企业在中国境内未设立机构、场所的，或者虽设立机构、场所但取得的所得与其所设机构、场所没有实际联系的，应当就其来源于中国境内的所得缴纳企业所得税。</p><p><span style=\"font-weight: 700;\">第四条</span></p><p>企业所得税的税率为25%。</p><p>非居民企业取得本法第三条第三款规定的所得，适用税率为20%。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub848468_2_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二章 应纳税所得额\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-2\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二章 应纳税所得额</h3><p><span style=\"font-weight: 700;\">第五条</span></p><p>企业每一纳税年度的收入总额，减除<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E4%B8%8D%E5%BE%81%E7%A8%8E%E6%94%B6%E5%85%A5\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">不征税收入</a>、<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%85%8D%E7%A8%8E%E6%94%B6%E5%85%A5\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">免税收入</a>、各项扣除以及允许弥补的以前年度亏损后的余额，为<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%BA%94%E7%BA%B3%E7%A8%8E%E6%89%80%E5%BE%97%E9%A2%9D\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">应纳税所得额</a>。</p><p><span style=\"font-weight: 700;\">第六条</span></p><p>企业以货币形式和非货币形式从各种来源取得的收入，为收入总额。包括：</p><p>（一）销售货物收入；</p><p>（二）提供劳务收入</p><p>（三）转让财产收入；</p><p>（四）股息、红利等权益性投资<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E6%94%B6%E7%9B%8A\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">收益</a></p><p>（五）利息收入；</p><p>（六）租金收入</p><p>（七）<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E7%89%B9%E8%AE%B8%E6%9D%83%E4%BD%BF%E7%94%A8%E8%B4%B9\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">特许权使用费</a>收入</p><p>（八）<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E6%8E%A5%E5%8F%97%E6%8D%90%E8%B5%A0%E6%94%B6%E5%85%A5\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">接受捐赠收入</a></p><p>（九）其他收入。</p><p><span style=\"font-weight: 700;\">第七条</span></p><p>收入总额中的下列收入为不征税收入：</p><p>（一）财政拨款</p><p>（二）依法收取并纳入财政管理的<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E8%A1%8C%E6%94%BF%E4%BA%8B%E4%B8%9A%E6%80%A7%E6%94%B6%E8%B4%B9\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">行政事业性收费</a>、政府性基金</p><p>（三）<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%9B%BD%E5%8A%A1%E9%99%A2\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">国务院</a>规定的其他不征税收入。</p><p><span style=\"font-weight: 700;\">第八条</span></p><p>企业实际发生的与取得收入有关的、合理的支出，包括成本、费用、税金、损失和其他支出，准予在计算应纳税所得额时扣除。</p><p><span style=\"font-weight: 700;\">第九条</span></p><p>企业发生的公益性捐赠支出，在<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%B9%B4%E5%BA%A6%E5%88%A9%E6%B6%A6%E6%80%BB%E9%A2%9D\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">年度利润总额</a>12%以内的部分，准予在计算应纳税所得额时扣除。</p><p><span style=\"font-weight: 700;\">第十条</span></p><p>在计算应纳税所得额时，下列支出不得扣除：</p><p>（一）向投资者支付的股息、红利等权益性投资收益款项；</p><p>（二）企业所得税税款</p><p>（三）税收<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E6%BB%9E%E7%BA%B3%E9%87%91\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">滞纳金</a>；</p><p>（四）罚金、罚款和被没收财物的损失</p><p>（五）本法第九条规定以外的捐赠支出；</p><p>（六）赞助支出</p><p>（七）未经核定的准备金支出；</p><p>（八）与取得收入无关的其他支出。</p><p><span style=\"font-weight: 700;\">第十一条</span></p><p>在计算应纳税所得额时，企业按照规定计算的<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%9B%BA%E5%AE%9A%E8%B5%84%E4%BA%A7\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">固定资产</a>折旧，准予扣除。</p><p>下列固定资产不得计算折旧扣除：</p><p>（一）房屋、建筑物以外未投入使用的固定资产</p><p>（二）以经营租赁方式租入的固定资产；</p><p>（三）以融资租赁方式租出的固定资产</p><p>（四）已足额提取折旧仍继续使用的固定资产；</p><p>（五）与经营活动无关的固定资产</p><p>（六）单独估价作为固定资产入账的土地；</p><p>（七）其他不得计算折旧扣除的固定资产。</p><p><span style=\"font-weight: 700;\">第十二条</span></p><p>在计算应纳税所得额时，企业按照规定计算的<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E6%97%A0%E5%BD%A2%E8%B5%84%E4%BA%A7%E6%91%8A%E9%94%80\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">无形资产摊销</a>费用，准予扣除。</p><p>下列无形资产不得计算摊销费用扣除：</p><p>（一）自行开发的支出已在计算应纳税所得额时扣除的无形资产</p><p>（二）自创商誉；</p><p>（三）与经营活动无关的无形资产</p><p>（四）其他不得计算摊销费用扣除的无形资产。</p><p><span style=\"font-weight: 700;\">第十三条</span></p><p>在计算应纳税所得额时，企业发生的下列支出作为<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E9%95%BF%E6%9C%9F%E5%BE%85%E6%91%8A%E8%B4%B9%E7%94%A8\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">长期待摊费用</a>，按照规定摊销的，准予扣除：</p><p>（一）已足额提取折旧的固定资产的改建支出；</p><p>（二）租入固定资产的改建支出</p><p>（三）固定资产的大修理支出；</p><p>（四）其他应当作为长期待摊费用的支出。</p><p><span style=\"font-weight: 700;\">第十四条</span></p><p><a target=\"_blank\" href=\"https://baike.baidu.com/item/%E4%BC%81%E4%B8%9A%E5%AF%B9%E5%A4%96%E6%8A%95%E8%B5%84\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">企业对外投资</a>期间，投资资产的成本在计算应纳税所得额时不得扣除。</p><p><span style=\"font-weight: 700;\">第十五条</span></p><p>企业使用或者销售存货，按照规定计算的存货成本，准予在计算应纳税所得额时扣除。</p><p><span style=\"font-weight: 700;\">第十六条</span></p><p>企业转让资产，该项资产的净值，准予在计算应纳税所得额时扣除。</p><p><span style=\"font-weight: 700;\">第十七条</span></p><p>企业在汇总计算缴纳企业所得税时，其境外营业机构的亏损不得抵减境内营业机构的盈利。</p><p><span style=\"font-weight: 700;\">第十八条</span></p><p>企业纳税年度发生的亏损，准予向以后年度结转，用以后年度的所得弥补，但结转年限最长不得超过五年。</p><p><span style=\"font-weight: 700;\">第十九条</span></p><p>非居民企业取得本法第三条第三款规定的所得，按照下列方法计算其应纳税所得额：</p><p>（一）股息、红利等权益性投资收益和利息、租金、特许权使用费所得，以收入全额为应纳税所得额；</p><p>（二）转让财产所得，以收入全额减除财产净值后的余额为应纳税所得额</p><p>（三）其他所得，参照前两项规定的方法计算应纳税所得额。</p><p><span style=\"font-weight: 700;\">第二十条</span></p><p>本章规定的收入、扣除的具体范围、标准和资产的税务处理的具体办法，由国务院财政、税务主管部门规定。</p><p><span style=\"font-weight: 700;\">第二十一条</span></p><p>在计算应纳税所得额时，企业财务、会计处理办法与税收法律、<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E8%A1%8C%E6%94%BF%E6%B3%95%E8%A7%84\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">行政法规</a>的规定不一致的，应当依照税收法律、行政法规的规定计算。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub848468_2_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第三章 应纳税额\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-3\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第三章 应纳税额</h3><p><span style=\"font-weight: 700;\">第二十二条</span></p><p>企业的应纳税所得额乘以适用税率，减除依照本法关于<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E7%A8%8E%E6%94%B6%E4%BC%98%E6%83%A0\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">税收优惠</a>的规定减免和抵免的税额后的余额，为应纳税额。</p><p><span style=\"font-weight: 700;\">第二十三条</span></p><p>企业取得的下列所得已在境外缴纳的所得税税额，可以从其当期应纳税额中抵免，抵免限额为该项所得依照本法规定计算的应纳税额；超过抵免限额的部分，可以在以后五个年度内，用每年度抵免限额抵免当年应抵税额后的余额进行抵补：</p><p>（一）居民企业来源于中国境外的应税所得；</p><p>（二）非居民企业在中国境内设立机构、场所，取得发生在中国境外但与该机构、场所有实际联系的应税所得。</p><p><span style=\"font-weight: 700;\">第二十四条</span></p><p>居民企业从其直接或者间接控制的外国企业分得的来源于中国境外的股息、红利等权益性投资收益，外国企业在境外实际缴纳的所得税税额中属于该项所得负担的部分，可以作为该居民企业的可抵免境外所得税税额，在本法第二十三条规定的抵免限额内抵免。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub848468_2_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第四章 税收优惠\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-4\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第四章 税收优惠</h3><p><span style=\"font-weight: 700;\">第二十五条</span></p><p>国家对重点扶持和鼓励发展的产业和项目，给予企业所得税优惠。</p><p><span style=\"font-weight: 700;\">第二十六条</span></p><p>企业的下列收入为免税收入：</p><p>（一）国债利息收入；</p><p>（二）符合条件的居民企业之间的股息、红利等权益性投资收益</p><p>（三）在中国境内设立机构、场所的非居民企业从居民企业取得与该机构、场所有实际联系的股息、红利等权益性投资收益；</p><p>（四）符合条件的非营利组织的收入。</p><p><span style=\"font-weight: 700;\">第二十七条</span></p><p>企业的下列所得，可以免征、减征企业所得税：</p><p>（一）从事农、林、牧、渔业项目的所得；</p><p>（二）从事国家重点扶持的<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%85%AC%E5%85%B1%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">公共基础设施</a>项目投资经营的所得</p><p>（三）从事符合条件的环境保护、节能节水项目的所得；</p><p>（四）符合条件的技术转让所得</p><p>（五）本法第三条第三款规定的所得。</p><p><span style=\"font-weight: 700;\">第二十八条</span></p><p>符合条件的<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%B0%8F%E5%9E%8B%E5%BE%AE%E5%88%A9%E4%BC%81%E4%B8%9A\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">小型微利企业</a>，减按20%的税率征收企业所得税。</p><p>国家需要重点扶持的<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E9%AB%98%E6%96%B0%E6%8A%80%E6%9C%AF%E4%BC%81%E4%B8%9A\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">高新技术企业</a>，减按15%的税率征收企业所得税。</p><p><span style=\"font-weight: 700;\">第二十九条</span></p><p>民族自治地方的<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E8%87%AA%E6%B2%BB%E6%9C%BA%E5%85%B3\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">自治机关</a>对本民族自治地方的企业应缴纳的企业所得税中属于地方分享的部分，可以决定减征或者免征。<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E8%87%AA%E6%B2%BB%E5%B7%9E\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">自治州</a>、自治县决定减征或者免征的，须报省、<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E8%87%AA%E6%B2%BB%E5%8C%BA\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">自治区</a>、直辖市人民政府批准。</p><p><span style=\"font-weight: 700;\">第三十条</span></p><p>企业的下列支出，可以在计算应纳税所得额时加计扣除：</p><p>（一）开发新技术、新产品、新工艺发生的研究开发费用；</p><p>（二）安置残疾人员及国家鼓励安置的其他就业人员所支付的工资。</p><p><span style=\"font-weight: 700;\">第三十一条</span></p><p><a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%88%9B%E4%B8%9A%E6%8A%95%E8%B5%84%E4%BC%81%E4%B8%9A\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">创业投资企业</a>从事国家需要重点扶持和鼓励的创业投资，可以按投资额的一定比例<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E6%8A%B5%E6%89%A3%E5%BA%94%E7%BA%B3%E7%A8%8E%E6%89%80%E5%BE%97%E9%A2%9D\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">抵扣应纳税所得额</a>。</p><p><span style=\"font-weight: 700;\">第三十二条</span></p><p>企业的固定资产由于技术进步等原因，确需加速折旧的，可以缩短折旧年限或者采取加速折旧的方法。</p><p><span style=\"font-weight: 700;\">第三十三条</span></p><p>企业综合利用资源，生产符合<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E4%BA%A7%E4%B8%9A%E6%94%BF%E7%AD%96\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">国家产业政策</a>规定的产品所取得的收入，可以在计算应纳税所得额时减计收入。</p><p><span style=\"font-weight: 700;\">第三十四条</span></p><p>企业购置用于环境保护、节能节水、<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%AE%89%E5%85%A8%E7%94%9F%E4%BA%A7\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">安全生产</a>等专用设备的投资额，可以按一定比例实行税额抵免。</p><p><span style=\"font-weight: 700;\">第三十五条</span></p><p>本法规定的税收优惠的具体办法，由<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%9B%BD%E5%8A%A1%E9%99%A2\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">国务院</a>规定。</p><p><span style=\"font-weight: 700;\">第三十六条</span></p><p>根据国民经济和社会发展的需要，或者由于<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E7%AA%81%E5%8F%91%E4%BA%8B%E4%BB%B6\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">突发事件</a>等原因对企业经营活动产生重大影响的，国务院可以制定企业所得税专项优惠政策，报<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%85%A8%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A%E5%B8%B8%E5%8A%A1%E5%A7%94%E5%91%98%E4%BC%9A\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">全国人民代表大会常务委员会</a>备案。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub848468_2_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第五章 源泉扣缴\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-5\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第五章 源泉扣缴</h3><p><span style=\"font-weight: 700;\">第三十七条</span></p><p>对非居民企业取得本法第三条第三款规定的所得应缴纳的所得税，实行<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E6%BA%90%E6%B3%89%E6%89%A3%E7%BC%B4\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">源泉扣缴</a>，以支付人为扣缴义务人。税款由扣缴义务人在每次支付或者到期应支付时，从支付或者到期应支付的款项中扣缴。</p><p><span style=\"font-weight: 700;\">第三十八条</span></p><p>对非居民企业在中国境内取得工程作业和劳务所得应缴纳的所得税，税务机关可以指定工程价款或者劳务费的支付人为扣缴义务人。</p><p><span style=\"font-weight: 700;\">第三十九条</span></p><p>依照本法第三十七条、第三十八条规定应当扣缴的所得税，扣缴义务人未依法扣缴或者无法履行扣缴义务的，由纳税人在所得发生地缴纳。纳税人未依法缴纳的，税务机关可以从该纳税人在中国境内其他收入项目的支付人应付的款项中，追缴该纳税人的应纳税款。</p><p><span style=\"font-weight: 700;\">第四十条</span></p><p>扣缴义务人每次代扣的税款，应当自代扣之日起七日内缴入国库，并向所在地的税务机关报送扣缴企业所得税报告表。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub848468_2_6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第六章 特别纳税调整\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-6\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第六章 特别纳税调整</h3><p><span style=\"font-weight: 700;\">第四十一条</span></p><p>企业与其关联方之间的业务往来，不符合<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E7%8B%AC%E7%AB%8B%E4%BA%A4%E6%98%93%E5%8E%9F%E5%88%99\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">独立交易原则</a>而减少企业或者其关联方应纳税收入或者所得额的，税务机关有权按照合理方法调整。</p><p>企业与其关联方共同开发、受让无形资产，或者共同提供、接受劳务发生的成本，在计算应纳税所得额时应当按照独立交易原则进行分摊。</p><p><span style=\"font-weight: 700;\">第四十二条</span></p><p>企业可以向税务机关提出与其关联方之间业务往来的定价原则和计算方法，税务机关与企业协商、确认后，达成<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E9%A2%84%E7%BA%A6%E5%AE%9A%E4%BB%B7%E5%AE%89%E6%8E%92\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">预约定价安排</a>。</p><p><span style=\"font-weight: 700;\">第四十三条</span></p><p>企业向税务机关报送年度企业所得税<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E7%BA%B3%E7%A8%8E%E7%94%B3%E6%8A%A5\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">纳税申报</a>表时，应当就其与关联方之间的业务往来，附送年度<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%85%B3%E8%81%94%E4%B8%9A%E5%8A%A1%E5%BE%80%E6%9D%A5\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">关联业务往来</a>报告表。</p><p>税务机关在进行关联业务调查时，企业及其关联方，以及与关联业务调查有关的其他企业，应当按照规定提供相关资料。</p><p><span style=\"font-weight: 700;\">第四十四条</span></p><p>企业不提供与其关联方之间业务往来资料，或者提供虚假、不完整资料，未能真实反映其关联业务往来情况的，税务机关有权依法核定其应纳税所得额。</p><p><span style=\"font-weight: 700;\">第四十五条</span></p><p>由居民企业，或者由居民企业和中国居民控制的设立在实际税负明显低于本法第四条第一款规定税率水平的国家（地区）的企业，并非由于合理的经营需要而对利润不作分配或者减少分配的，上述利润中应归属于该居民企业的部分，应当计入该居民企业的当期收入。</p><p><span style=\"font-weight: 700;\">第四十六条</span></p><p>企业从其关联方接受的债权性投资与权益性投资的比例超过规定标准而发生的利息支出，不得在计算应纳税所得额时扣除。</p><p><span style=\"font-weight: 700;\">第四十七条</span></p><p>企业实施其他不具有合理商业目的的安排而减少其应纳税收入或者所得额的，税务机关有权按照合理方法调整。</p><p><span style=\"font-weight: 700;\">第四十八条</span></p><p>税务机关依照本章规定作出纳税调整，需要补征税款的，应当补征税款，并按照国务院规定加收利息。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_7\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub848468_2_7\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第七章 征收管理\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-7\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第七章 征收管理</h3><p><span style=\"font-weight: 700;\">第四十九条</span></p><p>企业所得税的征收管理除本法规定外，依照《<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%A8%8E%E6%94%B6%E5%BE%81%E6%94%B6%E7%AE%A1%E7%90%86%E6%B3%95\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">中华人民共和国税收征收管理法</a>》的规定执行。</p><p><span style=\"font-weight: 700;\">第五十条</span></p><p>除税收法律、行政法规另有规定外，居民企业以企业登记注册地为纳税地点；但登记注册地在境外的，以实际管理机构所在地为纳税地点。</p><p>居民企业在中国境内设立不具有法人资格的营业机构的，应当汇总计算并缴纳企业所得税。</p><p><span style=\"font-weight: 700;\">第五十一条</span></p><p>非居民企业取得本法第三条第二款规定的所得，以机构、场所所在地为纳税地点。非居民企业在中国境内设立两个或者两个以上机构、场所的，经税务机关审核批准，可以选择由其主要机构、场所汇总缴纳企业所得税。</p><p>非居民企业取得本法第三条第三款规定的所得，以扣缴义务人所在地为纳税地点。</p><p><span style=\"font-weight: 700;\">第五十二条</span></p><p>除国务院另有规定外，企业之间不得合并缴纳企业所得税。</p><p><span style=\"font-weight: 700;\">第五十三条</span></p><p>企业所得税按纳税年度计算。纳税年度自公历每年1月1日起至每年12月31日止。</p><p>企业在一个纳税年度中间开业，或者终止经营活动，使该纳税年度的实际经营期不足十二个月的，应当以其实际经营期为一个纳税年度。</p><p>企业依法清算时，应当以清算期间作为一个纳税年度。</p><p><span style=\"font-weight: 700;\">第五十四条</span></p><p>企业所得税分月或者分季预缴。</p><p>企业应当自月份或者季度终了之日起十五日内，向税务机关报送预缴企业所得税纳税申报表，预缴税款。</p><p>企业应当自年度终了之日起五个月内，向税务机关报送年度企业所得税纳税申报表，并汇算清缴，结清应缴应退税款。</p><p>企业在报送企业所得税纳税申报表时，应当按照规定附送<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E8%B4%A2%E5%8A%A1%E4%BC%9A%E8%AE%A1%E6%8A%A5%E5%91%8A\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">财务会计报告</a>和其他有关资料。</p><p><span style=\"font-weight: 700;\">第五十五条</span></p><p>企业在年度中间终止经营活动的，应当自实际经营终止之日起六十日内，向税务机关办理当期<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E4%BC%81%E4%B8%9A%E6%89%80%E5%BE%97%E7%A8%8E%E6%B1%87%E7%AE%97%E6%B8%85%E7%BC%B4\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">企业所得税汇算清缴</a>。</p><p>企业应当在办理注销登记前，就其清算所得向税务机关申报并依法缴纳企业所得税。</p><p><span style=\"font-weight: 700;\">第五十六条</span></p><p>依照本法缴纳的企业所得税，以人民币计算。所得以人民币以外的货币计算的，应当折合成人民币计算并缴纳税款。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_8\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub848468_2_8\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第八章 附则\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-8\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第八章 附则</h3><p><span style=\"font-weight: 700;\">第五十七条</span></p><p>本法公布前已经批准设立的企业，依照当时的税收法律、行政法规规定，享受低税率优惠的，按照国务院规定，可以在本法施行后五年内，逐步过渡到本法规定的税率；享受定期减免税优惠的，按照国务院规定，可以在本法施行后继续享受到期满为止，但因未获利而尚未享受优惠的，优惠期限从本法施行年度起计算。</p><p>法律设置的发展对外经济合作和技术交流的特定地区内，以及国务院已规定执行上述地区特殊政策的地区内新设立的国家需要重点扶持的高新技术企业，可以享受过渡性税收优惠，具体办法由国务院规定。</p><p>国家已确定的其他鼓励类企业，可以按照国务院规定享受减免税优惠。</p><p><span style=\"font-weight: 700;\">第五十八条</span></p><p>中华人民共和国政府同外国政府订立的有关税收的协定与本法有不同规定的，依照协定的规定办理。</p><p><span style=\"font-weight: 700;\">第五十九条</span></p><p>国务院根据本法制定实施条例。</p><p><span style=\"font-weight: 700;\">第六十条</span></p><p>本法自2008年1月1日起施行。1991年4月9日第七届<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%85%A8%E5%9B%BD%E4%BA%BA%E6%B0%91%E4%BB%A3%E8%A1%A8%E5%A4%A7%E4%BC%9A\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">全国人民代表大会</a>第四次会议通过的《<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%A4%96%E5%95%86%E6%8A%95%E8%B5%84%E4%BC%81%E4%B8%9A%E5%92%8C%E5%A4%96%E5%9B%BD%E4%BC%81%E4%B8%9A%E6%89%80%E5%BE%97%E7%A8%8E%E6%B3%95\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">中华人民共和国外商投资企业和外国企业所得税法</a>》和1993年12月13日国务院发布的《<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E4%BC%81%E4%B8%9A%E6%89%80%E5%BE%97%E7%A8%8E%E6%9A%82%E8%A1%8C%E6%9D%A1%E4%BE%8B\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">中华人民共和国企业所得税暂行条例</a>》同时废止。</p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px;\" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"padding: 0px; margin: 0px;\"></span><br/></p>',`information_abstract`='                                                            ',`information_update`='1511407590' WHERE `id` = 3 [ RunTime:0.0400s ]
+
+[ 2017-11-23T11:26:30+08:00 ] ::1 /saide/admin.php/Information/information_lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:26:30+08:00 ] ::1 /saide/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:28:37+08:00 ] ::1 /saide/admin.php/Information/information_update/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_information` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image D:\xampp\htdocs\saide\RuntimeCache\Admin\8f5b1c559236fc8b5c91130aeaf9ae2c.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-23T11:28:47+08:00 ] ::1 /saide/admin.php/Information/information_doUpdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_information` WHERE `information_title` = '转融通业务监督管理试行办法' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_information` WHERE `information_page` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `admin_information` SET `information_page`='5',`information_image`='',`information_title`='转融通业务监督管理试行办法',`information_body`='<p style=\"text-align:center;\">(2011年10月26日&nbsp; 证监会令第75号)</p><p style=\"text-align:center;\">&nbsp;</p><p>　　　　　　　　　　　　　　　　　　&nbsp;<span style=\"FONT-SIZE: 12pt;font-family:黑体\">　 &nbsp;第一章&nbsp; 总　&nbsp; 
+则</span><br/>　&nbsp; 第一条&nbsp; 
+为了健全融资融券交易机制，拓宽证券公司融资融券业务资金和证券来源，规范转融通业务及相关活动，防范转融通业务风险，根据《证券法》、《证券公司监督管理条例》，制定本办法。<br/>　&nbsp; 
+第二条&nbsp; 本办法所称转融通业务，是指证券金融公司将自有或者依法筹集的资金和证券出借给证券公司，以供其办理融资融券业务的经营活动。<br/>　&nbsp; 第三条&nbsp; 
+从事转融通业务及相关活动，应当遵循平等、自愿、公平和诚实信用原则，不得损害社会公共利益。<br/>　&nbsp; 第四条&nbsp; 
+证券金融公司应当遵守法律、行政法规和本办法的规定，严格防范和控制风险，稳健开展转融通业务。<br/>　&nbsp; 第五条&nbsp; 
+中国证券监督管理委员会（以下简称证监会）依法对证券金融公司及其相关业务活动进行监督管理。</p><p>&nbsp;　　　　　　　　　　　　　　　　　&nbsp;<span style=\"FONT-SIZE: 12pt;font-family:黑体\">　　&nbsp; 第二章&nbsp; 
+证券金融公司</span></p><p>&nbsp;第六条&nbsp; 证券金融公司根据国务院的决定设立。证监会根据国务院的决定，履行审批程序。<br/>　&nbsp; 第七条&nbsp; 
+证券金融公司的组织形式为股份有限公司，注册资本不少于人民币60亿元。<br/>证券金融公司的注册资本应当为实收资本，其股东应当用货币出资。<br/>　&nbsp; 第八条&nbsp; 
+证券金融公司应当依照《公司法》和本办法的规定，制定公司章程，设立股东大会、董事会、监事会等组织机构，规范运作。<br/>　&nbsp; 第九条&nbsp; 
+证券金融公司董事、监事和高级管理人员的选任，应当经证监会批准。<br/>　&nbsp; 第十条&nbsp; 证券金融公司不以营利为目的，履行下列职责：<br/>　 
+&nbsp;（一）为证券公司融资融券业务提供资金和证券的转融通服务；<br/>　&nbsp; 
+（二）对证券公司融资融券业务运行情况进行监控；<br/>　　（三）监测分析全市场融资融券交易情况，运用市场化手段防控风险；<br/>　&nbsp; 
+（四）证监会确定的其他职责。<br/>　&nbsp; 第十一条&nbsp; 
+证券金融公司变更名称、注册资本、股东、住所、职责范围，制定或者修改公司章程，设立或者撤销分支机构，应当经证监会批准。</p><p><span style=\"FONT-SIZE: 12pt;font-family:黑体\">　　　　　　　　　　　　　　　　&nbsp; 　第三章&nbsp; 业务规则</span></p><p>第十二条&nbsp; 
+证券金融公司开展转融通业务，应当以自己的名义，在证券登记结算机构分别开立转融通专用证券账户、转融通担保证券账户和转融通证券交收账户。<br/>转融通专用证券账户用于记录证券金融公司持有的拟向证券公司融出的证券和证券公司归还的证券；转融通担保证券账户用于记录证券公司委托证券金融公司持有、担保证券金融公司因向证券公司转融通所生债权的证券；转融通证券交收账户用于办理证券金融公司与转融通业务有关的证券结算。<br/>　&nbsp; 
+第十三条&nbsp; 
+证券金融公司开展转融通业务，应当以自己的名义，在商业银行开立转融通专用资金账户，在证券登记结算机构分别开立转融通担保资金账户和转融通资金交收账户。<br/>转融通专用资金账户用于存放证券金融公司拟向证券公司融出的资金及证券公司归还的资金；转融通担保资金账户用于记录证券公司交存的、担保证券金融公司因向证券公司转融通所生债权的资金；转融通资金交收账户用于办理证券金融公司与转融通业务有关的资金结算。<br/>　&nbsp; 
+第十四条&nbsp; 
+证券金融公司开展转融通业务，应当了解证券公司的基本情况、业务范围、财务状况、违约记录、风险控制能力等，并以书面和电子的方式予以记录和保存。<br/>　&nbsp; 
+第十五条&nbsp; 证券金融公司应当建立客户信用评估机制，对证券公司的信用状况进行评估，并根据评估结果确定和调整对证券公司的授信额度。<br/>　&nbsp; 第十六条&nbsp; 
+证券金融公司开展转融通业务，应当与证券公司签订转融通业务合同，约定转融通的资金数额、标的证券的种类和数量、期限、费率、保证金的比例、证券权益处理办法、违约责任等事项。<br/>证券金融公司应当制定转融通业务合同标准格式，报证监会备案。<br/>　&nbsp; 
+第十七条&nbsp; 
+除本条第二款规定的情形外，证券金融公司向证券公司转融通的期限不得超过6个月。转融通的期限，自资金或者证券实际交付之日起算。<br/>证券金融公司可以与证券公司对转融通标的证券暂停交易、终止交易和其他特殊情形下转融通期限的顺延或者缩短作出约定。<br/>　&nbsp; 
+第十八条&nbsp; 证券金融公司应当按照国家宏观政策，根据市场状况和风险控制需要，确定和调整转融通费率和保证金的比例。<br/>　&nbsp; 第十九条&nbsp; 
+证券金融公司与证券公司签订转融通业务合同后，应当根据证券公司的申请，以证券公司的名义，为其开立转融通担保证券明细账户和转融通担保资金明细账户。<br/>转融通担保证券明细账户是转融通担保证券账户的二级账户，用于记载证券公司委托证券金融公司持有的担保证券的明细数据。转融通担保资金明细账户是转融通担保资金账户的二级账户，用于记载证券公司交存的担保资金的明细数据。<br/>证券金融公司可以委托证券登记结算机构根据清算、交收结果等，对证券公司转融通担保证券明细账户和转融通担保资金明细账户内的数据进行变更。<br/>　&nbsp; 
+第二十条&nbsp; 
+证券金融公司开展转融通业务，应当向证券公司收取一定比例的保证金。保证金可以证券充抵，但货币资金占应收取保证金的比例不得低于15%。<br/>证券金融公司应当确定并公布可充抵保证金证券的种类和折算率。<br/>证券金融公司可以与证券登记结算机构签订合同，委托证券登记结算机构代为管理保证金。<br/>　&nbsp; 
+第二十一条&nbsp; 
+证券公司向证券金融公司交存保证金，采取设立信托的方式。保证金中的证券应当记入转融通担保证券账户，保证金中的资金应当记入转融通担保资金账户。<br/>证券金融公司与证券公司应当约定，转融通担保证券账户内的证券和转融通担保资金账户内的资金，均为担保证券金融公司因向证券公司转融通所生债权的信托财产，因本办法第二十二条第三款规定情形所形成的信托财产对证券金融公司的债权，也归入信托财产。<br/>　&nbsp; 
+第二十二条&nbsp; 
+证券金融公司应当逐日计算证券公司交存的保证金价值与其所欠债务的比例。当该比例低于约定的维持保证金比例时，应当通知证券公司在一定的期限内补交差额，直至达到约定的初始保证金比例。但是，对因本条第三款规定情形导致的差额，证券公司无须补交。<br/>证券公司违约的，证券金融公司可以按照约定处分保证金，以实现对证券公司的债权；处分保证金不足以完全实现对证券公司的债权的，证券金融公司应当依法向证券公司追偿。<br/>经证券公司书面同意，证券金融公司可以有偿使用证券公司交存的保证金。证券金融公司使用保证金的用途、期限、对价等具体事项，由双方通过转融通业务合同约定。<br/>　&nbsp; 
+第二十三条&nbsp; 证券金融公司可以根据化解证券公司违约风险的需要，建立转融通互保基金。转融通互保基金的管理办法，由证券金融公司制定，经证监会批准后实施。<br/>　&nbsp; 
+第二十四条&nbsp; 
+市场交易活动出现异常，已经或者可能危及市场稳定，有必要暂停转融通业务的，证券金融公司可以按照业务规则和合同约定，暂停全部或者部分转融通业务并公告。<br/>　&nbsp; 
+第二十五条&nbsp; 证券登记结算机构根据证券账户和资金账户持有人发出或者认可的指令，办理转融通业务涉及的证券和资金的划转。<br/>　&nbsp; 第二十六条&nbsp; 
+司法机关依法对证券公司转融通担保证券明细账户或者转融通担保资金明细账户记载的权益采取财产保全或者强制执行措施的，证券金融公司应当处分保证金，在实现因向证券公司转融通所生债权后，协助司法机关执行。</p><p>　　　　　　　　　　　　　　　　<span style=\"FONT-SIZE: 12pt;font-family:黑体\">　　　 第四章&nbsp; 
+资金和证券的来源</span></p><p>第二十七条&nbsp; 证券金融公司开展转融通业务，可以使用下列资金和证券：<br/>　 （一）自有资金和证券；<br/>　 
+（二）通过证券交易所的业务平台融入的资金和证券；<br/>　 （三）通过证券金融公司的业务平台融入的资金；<br/>　 （四）依法筹集的其他资金和证券。<br/>　&nbsp; 
+第二十八条&nbsp; 证券金融公司可以依照《公司法》、《证券法》等有关规定，发行公司债券。<br/>　&nbsp; 第二十九条&nbsp; 
+证券金融公司可以向股东或者其他特定投资者借入次级债。证券金融公司借入次级债，应当事先向证监会报告。<br/>证券金融公司借入的次级债，参照证监会对证券公司借入次级债的有关规定，计入净资本。<br/>　&nbsp; 
+第三十条&nbsp; 
+证券金融公司通过证券交易所的业务平台融入资金和证券，按照证券交易所的业务规则办理。证券登记结算机构按照证券交易所业务平台的成交结果，办理有关登记结算。<br/>　&nbsp; 
+第三十一条&nbsp; 证券金融公司为履行本办法规定的职责，可以通过其在证券登记结算机构开立的普通证券账户买卖证券。</p><p>　　　　　　　　　　　　　　　　　　&nbsp;<span style=\"FONT-SIZE: 12pt;font-family:黑体\">　&nbsp; 第五章&nbsp; 
+权益处理</span></p><p>第三十二条&nbsp; 
+证券登记结算机构根据转融通担保证券账户内的记录，确认证券金融公司受托持有证券的事实，并以证券金融公司为名义持有人，登记于证券持有人名册。<br/>　&nbsp; 
+第三十三条&nbsp; 
+对转融通担保证券账户内记录的证券，由证券金融公司以自己的名义，行使对证券发行人的权利。证券金融公司行使对证券发行人的权利，应当事先征求委托其持有该证券的证券公司意见，并按照其意见办理。<br/>前款所称对证券发行人的权利，是指请求召开证券持有人会议、参加证券持有人会议、提案、表决、配售股份的认购、请求分配投资收益等因持有证券而产生的权利。<br/>　&nbsp; 
+第三十四条&nbsp; 
+证券登记结算机构受证券发行人委托以证券或者现金形式分派投资收益的，应当分别将分派的证券或者现金记录在转融通担保证券账户或者转融通担保资金账户内，并相应变更证券公司转融通担保证券明细账户或者转融通担保资金明细账户的数据。<br/>　&nbsp; 
+第三十五条&nbsp; 
+证券金融公司根据本办法规定融入证券后、归还证券前，或者证券公司向证券金融公司融入证券后、归还证券前，证券发行人分配投资收益、向证券持有人配售或者无偿派发证券、发行证券持有人有优先认购权的证券的，证券金融公司或者证券公司应当按照约定向融出方支付与所融入证券可得利益相等的证券或者资金。<br/>　&nbsp; 
+第三十六条&nbsp; 
+证券金融公司通过转融通担保证券账户持有的证券不计入其自有证券，证券金融公司无须因该账户内证券数量的变动而履行信息报告、披露或者要约收购义务。<br/>证券公司通过其自营证券账户、融券专用证券账户和转融通担保证券明细账户合计持有一家上市公司股票及其权益的数量或者其增减变动达到规定的比例时，应当依法履行信息报告、披露或者要约收购义务。有一致行动人的，一致行动人与证券公司持有的股票及其权益的数量合并计算。</p><p>&nbsp;　　　　　　　　　　　　　　　　　　　　&nbsp;<span style=\"FONT-SIZE: 12pt;font-family:黑体\">　 第六章&nbsp; 
+监督管理</span></p><p>第三十七条&nbsp; 
+证券金融公司应当依照本办法的规定制定转融通业务规则，明确账户管理、授信管理、标的证券管理、保证金管理、费率管理、信息披露等事项，经证监会批准后实施。<br/>　&nbsp; 
+第三十八条&nbsp; 证券金融公司应当每个交易日公布以下转融通信息：<br/>　&nbsp; （一）转融资余额；<br/>　&nbsp; （二）转融券余额；<br/>　&nbsp; 
+（三）转融通成交数据；<br/>　&nbsp; （四）转融通费率。<br/>　&nbsp; 第三十九条&nbsp; 
+证券金融公司应当建立合规管理机制，保证公司的经营管理及工作人员的执业行为合法合规。<br/>　&nbsp; 第四十条&nbsp; 
+证券金融公司应当建立风险控制机制，有效识别、评估、控制公司经营管理中的各类风险。<br/>　&nbsp; 第四十一条&nbsp; 
+证券金融公司应当遵守以下风险控制指标规定：<br/>　&nbsp; （一）净资本与各项风险资本准备之和的比例不得低于100%；<br/>　&nbsp; 
+（二）对单一证券公司转融通的余额，不得超过证券金融公司净资本的50%；<br/>　&nbsp; （三）融出的每种证券余额不得超过该证券上市可流通市值的10%；<br/>　&nbsp; 
+（四）充抵保证金的每种证券余额不得超过该证券总市值的15%。<br/>证券金融公司净资本、风险资本准备的计算，参照证监会对证券公司的有关规定执行。证监会另有规定的除外。<br/>　&nbsp; 
+第四十二条&nbsp; 证券金融公司不得为他人的债务提供担保。<br/>　&nbsp; 第四十三条&nbsp; 
+证券金融公司应当每年按照税后利润的10%提取风险准备金。证监会可以根据防范证券金融公司风险的需要，对提取比例进行调整。<br/>　&nbsp; 第四十四条&nbsp; 
+证券金融公司的资金，除用于履行本办法规定职责和维持公司正常运转外，只能用于以下用途：<br/>　&nbsp; （一）银行存款；<br/>　&nbsp; 
+（二）购买国债、证券投资基金份额等经证监会认可的高流动性金融产品；<br/>　&nbsp; （三）购置自用不动产；<br/>　&nbsp; （四）证监会认可的其他用途。<br/>　&nbsp; 
+第四十五条&nbsp; 证券金融公司应当建立信息系统安全管理机制，保障公司信息系统安全、稳定运行。<br/>　&nbsp; 第四十六条&nbsp; 
+证券金融公司应当自每一会计年度结束之日起4个月内，向证监会报送年度报告。年度报告应当包含按照规定编制并经具有证券相关业务资格的会计师事务所审计的财务会计报告。<br/>证券金融公司应当自每月结束之日起7个工作日内，向证监会报送月度报告。月度报告应当包含本办法第四十一条所列各项风险控制指标和转融通业务专项报表，以及证监会要求报送的其他信息。<br/>　&nbsp; 
+第四十七条&nbsp; 
+发生影响或者可能影响公司经营管理的重大事件的，证券金融公司应当立即向证监会报送临时报告，说明事件的起因、目前的状态、可能产生的后果和应对措施。<br/>　&nbsp; 
+第四十八条&nbsp; 
+证券金融公司为履行监控证券公司融资融券业务运行情况的职责，可以制定证券公司融资融券业务监控规则，经证监会批准后实施。<br/>证券公司应当按照规定向证券金融公司报送融资融券的相关数据。证券公司报送的数据应当真实、准确、完整。<br/>证券交易所、证券登记结算机构、证券金融公司应当建立融资融券信息共享机制。<br/>　&nbsp; 
+第四十九条&nbsp; 证券金融公司及其工作人员应当对因履行职责而获悉的信息保密。法律、行政法规和本办法另有规定的除外。<br/>　&nbsp; 第五十条&nbsp; 
+证券金融公司应当妥善保存履行本办法规定职责所形成的各类文件、资料，保存期限不少于20年。<br/>　&nbsp; 第五十一条&nbsp; 
+证监会为履行监督管理职责，可以要求证券金融公司及其工作人员提供有关信息、资料，并对公司进行现场检查。<br/>　&nbsp; 第五十二条&nbsp; 
+证券金融公司或者证券公司违反本办法规定的，由证监会视具体情形，采取责令改正、出具警示函、责令公开说明、责令定期报告等监管措施；应当给予行政处罚的，由证监会对公司及其有关责任人员单处或者并处警告、罚款。<br/>　　　　　　　　　　　　　　　　　　　　　<span style=\"FONT-SIZE: 12pt;font-family:黑体\">　&nbsp; 第七章&nbsp; 附　&nbsp; 则<br style=\"FONT-SIZE: 12pt\"/></span>　&nbsp; 第五十三条&nbsp; 
+证券交易所和证券登记结算机构根据本办法制定配套的交易、结算规则，按照规定报经证监会批准或者备案后实施。<br/>　&nbsp; 第五十四条&nbsp; 
+本办法自公布之日起施行。</p><p><br/></p>',`information_abstract`='                                                            ',`information_update`='1511407727' WHERE `id` = 5 [ RunTime:0.0530s ]
+
+[ 2017-11-23T11:28:47+08:00 ] ::1 /saide/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:28:47+08:00 ] ::1 /saide/admin.php/Information/information_lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-23T11:28:48+08:00 ] ::1 /saide/admin.php/User/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >= '1511366400' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >='1511280000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >='1511107200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_name` WHERE (  time >='1509465600' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_column_class` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1511366400' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1511280000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1511107200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_column_class` WHERE (  class_time >='1509465600' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_image` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1511366400' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1511280000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1511107200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_image` WHERE (  time >= '1509465600' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin_feedback` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1511366400' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1511280000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1511107200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_feedback` WHERE (  time >= '1509465600' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1511366400' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1511280000' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1511107200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` WHERE (  information_time >='1509465600' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\saide\RuntimeCache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 149 行.
+NOTIC: [8] Undefined index: PROCESSOR_IDENTIFIER D:\xampp\htdocs\saide\RuntimeCache\Admin\13d526d0a9c0be4af262c5dc5411dfd6.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-23T11:30:30+08:00 ] ::1 /saide/admin.php/Information/information_update/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin_information` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: image D:\xampp\htdocs\saide\RuntimeCache\Admin\8f5b1c559236fc8b5c91130aeaf9ae2c.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:31:52+08:00 ] ::1 /saide/admin.php/Information/information_doUpdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_information` WHERE `information_title` = '期货从业人员管理办法' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_information` WHERE `information_page` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `admin_information` SET `information_page`='6',`information_image`='',`information_title`='期货从业人员管理办法',`information_body`='<p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"font-family:黑体;padding: 0px; margin: 0px; font-size: 12pt;\">期货从业人员管理办法</span></p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"font-family:黑体;padding: 0px; margin: 0px; font-size: 12pt;\"></span></p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px; font-family: \" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"font-family:黑体;padding: 0px; margin: 0px; font-size: 12pt;\"></span></p><h2 class=\"title-text\" style=\"margin: 0px; padding: 0px 8px 0px 18px; font-size: 22px; color: rgb(0, 0, 0); float: left; line-height: 24px; font-weight: 400; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">第一章　总　则</h2><p><br/></p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"1_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_1_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第一条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"1-1\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第一条</h3><p>为了加强期货从业人员的资格管理，规范期货从业人员的执业行为，根据《期货交易管理条例》，制定本办法。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"1_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_1_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"1-2\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二条</h3><p>申请期货从业人员资格（以下简称从业资格），从事期货经营业务的机构（以下简称机构）任用期货从业人员，以及期货从业人员从事期货业务的，应当遵守本办法。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"1_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_1_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第三条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"1-3\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第三条</h3><p>本办法所称机构是指：</p><p>（一）期货公司；</p><p>（二）期货交易所的非期货公司结算会员；</p><p>（三）期货投资咨询机构；</p><p>（四）为期货公司提供中间介绍业务的机构；</p><p>（五）中国证券监督管理委员会（以下简称中国证监会）规定的其他机构。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"1_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_1_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第四条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"1-4\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第四条</h3><p>本办法所称期货从业人员是指：</p><p>（一）期货公司的管理人员和专业人员；</p><p>（二）期货交易所的非期货公司结算会员中从事期货结算业务的管理人员和专业人员；</p><p>（三）期货投资咨询机构中从事期货投资咨询业务的管理人员和专业人员；</p><p>（四）为期货公司提供中间介绍业务的机构中从事期货经营业务的管理人员和专业人员；</p><p>（五）中国证监会规定的其他人员。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"1_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_1_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第五条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"1-5\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第五条</h3><p>中国证监会及其派出机构依法对期货从业人员进行监督管理。</p><p>中国期货业协会（以下简称协会）依法对期货从业人员实行自律管理，负责从业资格的认定、管理及撤销。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"取得注销\"></a></p><h2 class=\"title-text\" style=\"margin: 0px; padding: 0px 8px 0px 18px; font-size: 22px; color: rgb(0, 0, 0); float: left; line-height: 24px; font-weight: 400; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">取得注销</h2><p><br/></p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_2_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第六条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-1\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第六条</h3><p>协会负责组织从业资格考试。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_2_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第七条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-2\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第七条</h3><p>参加从业资格考试的，应当符合下列条件：</p><p>（一）年满18周岁；</p><p>（二）具有完全民事行为能力；</p><p>（三）具有高中以上文化程度；</p><p>（四）中国证监会规定的其他条件。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_2_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第八条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-3\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第八条</h3><p>通过从业资格考试的，取得协会颁发的从业资格考试合格证明。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_2_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第九条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-4\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第九条</h3><p>取得从业资格考试合格证明的人员从事期货业务的，应当事先通过其所在机构向协会申请从业资格。</p><p>未取得从业资格的人员，不得在机构中开展期货业务活动。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_2_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第十条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-5\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第十条</h3><p>机构任用具有从业资格考试合格证明且符合下列条件的人员从事期货业务的，应当为其办理从业资格申请：</p><p>（一）品行端正，具有良好的职业道德；</p><p>（二）已被本机构聘用；</p><p>（三）最近3年内未受过刑事处罚或者中国证监会等金融监管机构的行政处罚；</p><p>（四）未被中国证监会等金融监管机构采取市场禁入措施，或者禁入期已经届满；</p><p>（五）最近3年内未因违法违规行为被撤销证券、<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E6%9C%9F%E8%B4%A7%E4%BB%8E%E4%B8%9A%E8%B5%84%E6%A0%BC\" style=\"color: rgb(19, 110, 194); text-decoration-line: none;\">期货从业资格</a>；</p><p>（六）中国证监会规定的其他条件。</p><p>机构不得任用无从业资格的人员从事期货业务，不得在办理从业资格申请过程中弄虚作假。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_2_6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第十一条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-6\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第十一条</h3><p>期货从业人员辞职、被解聘或者死亡的，机构应当自上述情形发生之日起10个工作日内向协会报告，由协会注销其从业资格。</p><p>机构的相关期货业务许可被注销的，由协会注销该机构中从事相应期货业务的期货从业人员的从业资格。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2_7\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_2_7\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第十二条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"2-7\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第十二条</h3><p>取得从业资格考试合格证明或者被注销从业资格的人员连续2年未在机构中执业的，在申请从业资格前应当参加协会组织的后续职业培训。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第三章　执业规则\"></a></p><h2 class=\"title-text\" style=\"margin: 0px; padding: 0px 8px 0px 18px; font-size: 22px; color: rgb(0, 0, 0); float: left; line-height: 24px; font-weight: 400; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">第三章　执业规则</h2><p><br/></p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_3_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第十三条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3-1\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第十三条</h3><p>期货从业人员必须遵守有关法律、行政法规和中国证监会的规定，遵守协会和期货交易所的自律规则，不得从事或者协同他人从事欺诈、内幕交易、操纵期货交易价格、编造并传播有关期货交易的虚假信息等违法违规行为。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_3_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第十四条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3-2\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第十四条</h3><p>期货从业人员应当遵守下列执业行为规范：</p><p>（一）诚实守信，恪尽职守，促进机构规范运作，维护期货行业声誉；</p><p>（二）以专业的技能，谨慎、勤勉尽责地为客户提供服务，保守客户的商业秘密，维护客户的合法权益；</p><p>（三）向客户提供专业服务时，充分揭示期货交易风险，不得作出不当承诺或者保证；</p><p>（四）当自身利益或者相关方利益与客户的利益发生冲突或者存在潜在利益冲突时，及时向客户进行披露，并且坚持客户合法利益优先的原则；</p><p>（五）具有良好的职业道德与守法意识，抵制商业贿赂，不得从事不正当竞争行为和不正当交易行为；</p><p>（六）不得为迎合客户的不合理要求而损害社会公共利益、所在机构或者他人的合法权益；</p><p>（七）不得以本人或者他人名义从事期货交易；</p><p>（八）协会规定的其他执业行为规范。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_3_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第十五条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3-3\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第十五条</h3><p>期货公司的期货从业人员不得有下列行为：</p><p>（一）进行虚假宣传，诱骗客户参与期货交易；</p><p>（二）挪用客户的期货保证金或者其他资产；</p><p>（三）中国证监会禁止的其他行为。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_3_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第十六条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3-4\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第十六条</h3><p>期货交易所的非期货公司结算会员的期货从业人员不得有下列行为：</p><p>（一）利用结算业务关系及由此获得的结算信息损害非结算会员及其客户的合法权益；</p><p>（二）代理客户从事期货交易；</p><p>（三）中国证监会禁止的其他行为。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_3_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第十七条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3-5\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第十七条</h3><p>期货投资咨询机构的期货从业人员不得有下列行为：</p><p>（一）利用传播媒介或者通过其他方式提供、传播虚假或者误导客户的信息；</p><p>（二）代理客户从事期货交易；</p><p>（三）中国证监会禁止的其他行为。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3_6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_3_6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第十八条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3-6\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第十八条</h3><p>为期货公司提供中间介绍业务的机构的期货从业人员不得有下列行为：</p><p>（一）收付、存取或者划转期货保证金；</p><p>（二）代理客户从事期货交易；</p><p>（三）中国证监会禁止的其他行为。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3_7\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_3_7\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第十九条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"3-7\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第十九条</h3><p>机构或者其管理人员对期货从业人员发出违法违规指令的，期货从业人员应当予以抵制，并及时按照所在机构内部程序向高级管理人员或者董事会报告。机构应当及时采取措施妥善处理。</p><p>机构未妥善处理的，期货从业人员应当及时向中国证监会或者协会报告。中国证监会和协会应当对期货从业人员的报告行为保密。</p><p>机构的管理人员及其他相关人员不得对期货从业人员的上述报告行为打击报复。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第四章　监督管理\"></a></p><h2 class=\"title-text\" style=\"margin: 0px; padding: 0px 8px 0px 18px; font-size: 22px; color: rgb(0, 0, 0); float: left; line-height: 24px; font-weight: 400; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">第四章　监督管理</h2><p><br/></p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二十条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4-1\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二十条</h3><p>中国证监会指导和监督协会对期货从业人员的自律管理活动。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二十一条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4-2\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二十一条</h3><p>协会应当建立期货从业人员信息数据库，公示并且及时更新从业资格注册、诚信记录等信息。</p><p>中国证监会及其派出机构履行监管职责，需要协会提供期货从业人员信息和资料的，协会应当按照要求及时提供。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二十二条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4-3\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二十二条</h3><p>协会应当组织期货从业人员后续职业培训，提高期货从业人员的职业道德和专业素质。</p><p>期货从业人员应当按照有关规定参加后续职业培训，其所在机构应予以支持并提供必要保障。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二十三条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4-4\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二十三条</h3><p>协会应当对期货从业人员的执业行为进行定期或者不定期检查，期货从业人员及其所在机构应当予以配合。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二十四条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4-5\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二十四条</h3><p>期货从业人员违反本办法以及协会自律规则的，协会应当进行调查、给予纪律惩戒。</p><p>期货从业人员涉嫌违法违规需要中国证监会给予行政处罚的，协会应当及时移送中国证监会处理。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4_6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4_6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二十五条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4-6\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二十五条</h3><p>协会应当设立专门的纪律惩戒及申诉机构，制订相关制度和工作规程，按照规定程序对期货从业人员进行纪律惩戒，并保障当事人享有申诉等权利。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4_7\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4_7\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二十六条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4-7\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二十六条</h3><p>协会应当自对期货从业人员作出纪律惩戒决定之日起10个工作日内，向中国证监会及其有关派出机构报告，并及时在协会网站公示。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4_8\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4_8\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二十七条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4-8\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二十七条</h3><p>期货从业人员受到机构处分，或者从事的期货业务行为涉嫌违法违规被调查处理的，机构应当在作出处分决定、知悉或者应当知悉该期货从业人员违法违规被调查处理事项之日起10个工作日内向协会报告。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4_9\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4_9\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二十八条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4-9\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二十八条</h3><p>协会应当定期向中国证监会报告期货从业人员管理的有关情况。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4_10\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4_10\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第二十九条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4-10\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第二十九条</h3><p>期货从业人员违反本办法规定的，中国证监会及其派出机构可以采取责令改正、监管谈话、出具警示函等监管措施。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4_11\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_4_11\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第三十条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"4-11\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第三十条</h3><p>期货从业人员自律管理的具体办法，包括从业资格考试、从业资格注册和公示、执业行为准则、后续职业培训、执业检查、纪律惩戒和申诉等，由协会制订，报中国证监会核准。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第五章　罚　则\"></a></p><h2 class=\"title-text\" style=\"margin: 0px; padding: 0px 8px 0px 18px; font-size: 22px; color: rgb(0, 0, 0); float: left; line-height: 24px; font-weight: 400; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">第五章　罚　则</h2><p><br/></p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"5_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_5_1\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第三十一条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"5-1\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第三十一条</h3><p>未取得从业资格，擅自从事期货业务的，中国证监会责令改正，给予警告，单处或者并处3万元以下罚款。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"5_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_5_2\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第三十二条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"5-2\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第三十二条</h3><p>有下列行为之一的，中国证监会根据《期货交易管理条例》第七十条处罚：</p><p>（一）任用无从业资格的人员从事期货业务；</p><p>（二）在办理从业资格申请过程中弄虚作假；</p><p>（三）不履行本办法第二十三条规定的配合义务；</p><p>（四）不按照本办法第二十七条的规定履行报告义务或者报告材料存在虚假内容。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"5_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_5_3\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第三十三条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"5-3\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第三十三条</h3><p>违反本办法第十九条的规定，对期货从业人员进行打击报复的，中国证监会根据《期货交易管理条例》第七十条、第八十一条处罚。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"5_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_5_4\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第三十四条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"5-4\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第三十四条</h3><p>期货从业人员违法违规的，中国证监会依法给予行政处罚。但因被迫执行违法违规指令而按照本办法第十九条第二款的规定履行了报告义务的，可以从轻、减轻或者免予行政处罚。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"5_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_5_5\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第三十五条\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"5-5\"></a></p><h3 class=\"title-text\" style=\"margin: 0px; padding: 0px; font-size: 18px; font-weight: 400;\">第三十五条</h3><p>协会工作人员不按本办法规定履行职责，徇私舞弊、玩忽职守或者故意刁难有关当事人的，协会应当给予纪律处分。</p><p><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"sub1069619_6\"></a><a style=\"color: rgb(19, 110, 194); position: absolute; top: -50px;\" name=\"第六章　附　则\"></a></p><h2 class=\"title-text\" style=\"margin: 0px; padding: 0px 8px 0px 18px; font-size: 22px; color: rgb(0, 0, 0); float: left; line-height: 24px; font-weight: 400; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">第六章　附　则</h2><p><br/></p><p><span style=\"font-weight: 700;\">第三十六条</span>　本办法自公布之日起施行。2002年1月23日发布的《期货从业人员资格管理办法（修订）》（证监发〔2002〕6号）同时废止。</p><p style=\"padding: 5px 0px; margin-top: 0px; margin-bottom: 0px; line-height: 20px;\" microsoft=\"\" white-space:=\"\" background-color:=\"\"><span style=\"font-family:宋体;padding: 0px; margin: 0px; font-size: 10.5pt;\"></span><br/></p>',`information_abstract`='                                                            ',`information_update`='1511407912' WHERE `id` = 6 [ RunTime:0.2600s ]
+
+[ 2017-11-23T11:31:52+08:00 ] ::1 /saide/admin.php/Information/information_lists/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin_information` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_information` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT admin_information. *,admin_information_cate.cate_title FROM `admin_information` INNER JOIN admin_information_cate ON admin_information.uid = admin_information_cate.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-23T11:31:52+08:00 ] ::1 /saide/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_name` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_name` WHERE `name` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `admin_user` WHERE `name` = 'saide' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

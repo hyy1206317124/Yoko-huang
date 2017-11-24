@@ -1,0 +1,30 @@
+<!--底部-->
+<div class="index_footer">
+	<div class="index_footer_copy">
+		<span>相关链接</span><span>-</span>
+                <volist name='url' id='u'>
+		<a href="{$u['url_http']}" target="_blank">{$u['url_title']}</a><span>-</span>
+                </volist>
+	</div>
+	<div class="index_footer_info">
+		<span>版权页面所有：{$base['base_title']} {$base['base_copyright']}</span>
+	</div>
+	<div class="index_footer_info">
+		<span>地址：{$base['base_address']}</span>
+	</div>
+	<div class="index_footer_info">
+		<span>{$base['base_record_number']}</span>
+	</div>
+</div>
+<!--底部-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?0dcdaf3668dc5b711dd343450fe668bc";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
