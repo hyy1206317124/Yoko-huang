@@ -1,107 +1,71 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>赛德管理系统</title>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5shiv.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/lib/Hui-iconfont/1.0.8/iconfont.css" />
 
-<link href="__PUBLIC__/Admin/User/Css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="__PUBLIC__/Admin/User/Javascript/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="__PUBLIC__/Admin/layer/2.4/layer.js"></script>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/static/h-ui.admin/css/style.css" />
+<link href="__PUBLIC__/Admin/static/h-ui/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Admin/static/h-ui.admin/css/H-ui.login.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Admin/static/h-ui.admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Admin/lib/Hui-iconfont/1.0.8/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>后台登录 - 德赛后台 v3.1</title>
 </head>
-<body onLoad="sendRequest()" >
-<style>
-    .m{
-        width:200px; height:50px;margin-right: 80px;margin-bottom: -18px;
-    }
-</style>
-<div class="videozz"></div>
-	<video  autoplay muted loop poster="assets/images/fallba1ck.jpg">
-		<source src="assets/images/mov.mp4">		
-		你的游览器不支持video支持
-	</video>
-<div class="box">
-	<div class="box-a">
-    <div class="m-2">
-          <div class="m-2-1">
-            <form id="myForm">
-                <div class="m-2-2">
-                   <input type="text" id="name" name="name" placeholder="请输入账号" />
-                </div>
-                <div class="m-2-2">
-                   <input type="password" id="password" name="password" placeholder="请输入密码"/>
-                </div>
-                <img class="m" id="code" src="{:U('User/yan')}?<?php echo md5(uniqid(time()))?>"  
-                     onClick="this.src=this.src+'?'+Math.random()"/>
-                <div class="m-2-2">
-                   <input type="text" id="yan" name="yan" placeholder="请输入验证码"/>
-                </div>
-                <div class="m-2-2">
-                   <button type="submit" id="sub" value="登陆" /> 登陆
-                  
-                </div>
-                    
-            </form>
-          </div>
-    </div>
-    <div class="m-5"> 
-    <div id="m-5-id-1"> 
-    <div id="m-5-2"> 
-    <div id="m-5-id-2">  
-    </div> 
-    <div id="m-5-id-3"></div> 
-    </div> 
-    </div> 
-    </div>   
-    <div class="m-10"></div>
-    <div class="m-xz7"></div>
-    <div class="m-xz8 xzleft"></div>
-    <div class="m-xz9"></div>
-    <div class="m-xz9-1"></div>
-    <!-- <div class="m-x10"></div>
-    <div class="m-x11"></div>
-    <div class="m-x12 xzleft"></div>
-    <div class="m-x13"></div>
-    <div class="m-x14 xzleft"></div>
-    <div class="m-x15"></div>
-    <div class="m-x16 xzleft"></div>-->
-    <div class="m-x17 xzleft"></div>
-    <div class="m-x18"></div>
-    <div class="m-x19 xzleft"></div>
-    <div class="m-x20"></div>  
-    <div class="m-8"></div>
-    <div class="m-9"><div class="masked1" id="sx8">赛德管理系统</div></div> 
-    <div class="m-11">
-    	<div class="m-k-1"><div class="t1"></div></div>
-        <div class="m-k-2"><div class="t2"></div></div>
-        <div class="m-k-3"><div class="t3"></div></div>
-        <div class="m-k-4"><div class="t4"></div></div>
-        <div class="m-k-5"><div class="t5"></div></div>
-        <div class="m-k-6"><div class="t6"></div></div>
-        <div class="m-k-7"><div class="t7"></div></div>
-    </div>   
-    <div class="m-14"><div class="ss"></div></div>
-    <div class="m-15-a">
-    <div class="m-15-k">
-    	<div class="m-15xz1">
-            <div class="m-15-dd2"></div>
+<body>
+<input type="hidden" id="TenantId" name="TenantId" value="" />
+<div class="header"></div>
+<div class="loginWraper">
+  <div id="loginform" class="loginBox">
+    <form class="form-horizontal">
+      <div class="row cl">
+        <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60d;</i></label>
+        <div class="formControls col-xs-8">
+          <input id="name" name="name" type="text" placeholder="账户" class="input-text size-L">
         </div>
-    </div>
-    </div>
-    <div class="m-16"></div>
-    <div class="m-17"></div>
-    <div class="m-18 xzleft"></div>
-    <div class="m-19"></div>
-    <div class="m-20 xzleft"></div>
-    <div class="m-21"></div>
-    <div class="m-22"></div>
-    <div class="m-23 xzleft"></div>
-    <div class="m-24" id="localtime"></div>
-    </div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60e;</i></label>
+        <div class="formControls col-xs-8">
+          <input id="password" name="password" type="password" placeholder="密码" class="input-text size-L">
+        </div>
+      </div>
+      <div class="row cl">
+          <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe675;</i></label>
+        <div class="formControls col-xs-8 ">
+            <input class=" input-text size-L" type="text" id="yan" name="yan" placeholder="请输入验证码"/>
+            <img style="width:150px;" id="code" src="{:U('User/yan')}?<?php echo md5(uniqid(time()))?>"  onClick="this.src=this.src+'?'+Math.random()"/>
+        </div>
+      </div>
+      <div class="row cl">
+        <div class="formControls col-xs-8 col-xs-offset-3">
+          <input id="sub" type="submit" class="btn btn-success radius size-L" value="&nbsp;登&nbsp;&nbsp;&nbsp;&nbsp;录&nbsp;">
+          <input name="" type="reset" class="btn btn-default radius size-L" value="&nbsp;取&nbsp;&nbsp;&nbsp;&nbsp;消&nbsp;">
+        </div>
+      </div>
+    </form>
+  </div>
 </div>
-<script src="__PUBLIC__/Admin/User/Javascript/common.min.js"></script>
-<script src="__PUBLIC__/jquery-3.1.0.min.js"></script>
-<script>
+<div class="footer">Copyright 四川德赛价格评估有限公司 by 德赛后台 v3.1</div>
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Admin/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/static/h-ui/js/H-ui.min.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Admin/static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript">
          $(function(){
              $("#sub").click(function(){
             //用户名
@@ -159,4 +123,3 @@
 </script>
 </body>
 </html>
-
